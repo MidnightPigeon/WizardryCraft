@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/gen2/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: {[k: string]: ModdedSpeciesData} = {\r\n\tunown: {\r\n\t\tinherit: true,\r\n\t\tcosmeticFormes: [\"Unown-B\", \"Unown-C\", \"Unown-D\", \"Unown-E\", \"Unown-F\", \"Unown-G\", \"Unown-H\", \"Unown-I\", \"Unown-J\", \"Unown-K\", \"Unown-L\", \"Unown-M\", \"Unown-N\", \"Unown-O\", \"Unown-P\", \"Unown-Q\", \"Unown-R\", \"Unown-S\", \"Unown-T\", \"Unown-U\", \"Unown-V\", \"Unown-W\", \"Unown-X\", \"Unown-Y\", \"Unown-Z\"],\r\n\t\tformeOrder: [\"Unown\", \"Unown-B\", \"Unown-C\", \"Unown-D\", \"Unown-E\", \"Unown-F\", \"Unown-G\", \"Unown-H\", \"Unown-I\", \"Unown-J\", \"Unown-K\", \"Unown-L\", \"Unown-M\", \"Unown-N\", \"Unown-O\", \"Unown-P\", \"Unown-Q\", \"Unown-R\", \"Unown-S\", \"Unown-T\", \"Unown-U\", \"Unown-V\", \"Unown-W\", \"Unown-X\", \"Unown-Y\", \"Unown-Z\"],\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAA4C;AAAA,EACxD,OAAO;AAAA,IACN,SAAS;AAAA,IACT,gBAAgB,CAAC,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,SAAS;AAAA,IAClS,YAAY,CAAC,SAAS,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,SAAS;AAAA,EACxS;AACD;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/gen3/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: {[k: string]: ModdedFormatData} = {\r\n\tstandard: {\r\n\t\teffectType: 'ValidatorRule',\r\n\t\tname: 'Standard',\r\n\t\tdesc: \"The standard ruleset for all offical Smogon singles tiers (Ubers, OU, etc.)\",\r\n\t\truleset: ['Obtainable', 'Sleep Clause Mod', 'Switch Priority Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAA4C;AAAA,EACxD,UAAU;AAAA,IACT,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,MAAM;AAAA,IACN,SAAS,CAAC,cAAc,oBAAoB,8BAA8B,kBAAkB,mBAAmB,eAAe,wBAAwB,wBAAwB,yBAAyB,qBAAqB,YAAY;AAAA,EACzO;AACD;",
+  "names": []
+}

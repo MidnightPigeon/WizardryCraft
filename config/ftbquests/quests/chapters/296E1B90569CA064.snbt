@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "296E1B90569CA064"
+	group: "3CEB9343E5947817"
+	icon: "mna:enchanted_vellum"
+	id: "296E1B90569CA064"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E5CC215F5285F18"]
+			id: "223D42ABFAE31C42"
+			subtitle: "翻一下书怎么天就黑了呢"
+			tasks: [{
+				id: "00F991A8B9BC35D6"
+				item: "mna:guide_book"
+				type: "item"
+			}]
+			title: "我是谁？我在哪儿？"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["223D42ABFAE31C42"]
+			id: "27D96777E5CB550D"
+			tasks: [{
+				id: "6910E8B5EAEFE43F"
+				item: {
+					Count: 1
+					id: "mna:improvised_manaweaver_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "织法者"
+}

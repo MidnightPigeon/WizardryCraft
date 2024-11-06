@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/moderngen1/scripts.ts"],
+  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\r\n\tinherit: 'gen1',\r\n\tgen: 1,\r\n\tinit() {\r\n\t\tfor (const i in this.data.Pokedex) {\r\n\t\t\tthis.modData('Pokedex', i).gen = 1;\r\n\t\t\tthis.modData('Pokedex', i).gender = 'N';\r\n\t\t\tthis.modData('Pokedex', i).eggGroups = null;\r\n\t\t}\r\n\t\tconst specialTypes = ['Fire', 'Water', 'Grass', 'Ice', 'Electric', 'Dark', 'Psychic', 'Dragon'];\r\n\t\tfor (const i in this.data.Moves) {\r\n\t\t\tthis.modData('Moves', i).gen = 1;\r\n\t\t\tif (this.data.Moves[i].category === 'Status') continue;\r\n\t\t\tconst newCategory = specialTypes.includes(this.data.Moves[i].type) ? 'Special' : 'Physical';\r\n\t\t\tif (newCategory !== this.data.Moves[i].category) {\r\n\t\t\t\tthis.modData('Moves', i).category = newCategory;\r\n\t\t\t}\r\n\t\t}\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,SAAS;AAAA,EACT,KAAK;AAAA,EACL,OAAO;AACN,eAAW,KAAK,KAAK,KAAK,SAAS;AAClC,WAAK,QAAQ,WAAW,CAAC,EAAE,MAAM;AACjC,WAAK,QAAQ,WAAW,CAAC,EAAE,SAAS;AACpC,WAAK,QAAQ,WAAW,CAAC,EAAE,YAAY;AAAA,IACxC;AACA,UAAM,eAAe,CAAC,QAAQ,SAAS,SAAS,OAAO,YAAY,QAAQ,WAAW,QAAQ;AAC9F,eAAW,KAAK,KAAK,KAAK,OAAO;AAChC,WAAK,QAAQ,SAAS,CAAC,EAAE,MAAM;AAC/B,UAAI,KAAK,KAAK,MAAM,CAAC,EAAE,aAAa;AAAU;AAC9C,YAAM,cAAc,aAAa,SAAS,KAAK,KAAK,MAAM,CAAC,EAAE,IAAI,IAAI,YAAY;AACjF,UAAI,gBAAgB,KAAK,KAAK,MAAM,CAAC,EAAE,UAAU;AAChD,aAAK,QAAQ,SAAS,CAAC,EAAE,WAAW;AAAA,MACrC;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

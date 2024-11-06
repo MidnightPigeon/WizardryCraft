@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/gen2stadium2/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: {[k: string]: ModdedFormatData} = {\r\n\tstandard: {\r\n\t\teffectType: 'ValidatorRule',\r\n\t\tname: 'Standard',\r\n\t\truleset: ['Obtainable', 'Team Preview', 'Stadium Sleep Clause', 'Freeze Clause Mod', 'Self-KO Clause', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Exact HP Mod', 'Cancel Mod', 'Stadium Items Clause'],\r\n\t},\r\n\tselfkoclause: {\r\n\t\teffectType: 'Rule',\r\n\t\tname: 'Self-KO Clause',\r\n\t\tdesc: \"If a player's last Pokemon uses Self-Destruct or Explosion, they automatically lose the battle.\",\r\n\t\tonBegin() {\r\n\t\t\tthis.add('rule', 'Self-KO Clause: If a player\\'s last Pokemon uses Self-Destruct/Explosion, they automatically lose');\r\n\t\t},\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAA4C;AAAA,EACxD,UAAU;AAAA,IACT,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,SAAS,CAAC,cAAc,gBAAgB,wBAAwB,qBAAqB,kBAAkB,kBAAkB,mBAAmB,eAAe,wBAAwB,gBAAgB,cAAc,sBAAsB;AAAA,EACxO;AAAA,EACA,cAAc;AAAA,IACb,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,MAAM;AAAA,IACN,UAAU;AACT,WAAK,IAAI,QAAQ,kGAAmG;AAAA,IACrH;AAAA,EACD;AACD;",
+  "names": []
+}

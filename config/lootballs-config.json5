@@ -1,0 +1,14 @@
+{
+	"minLootBallsPerChunk": 0,
+	"maxLootBallsPerChunk": 3,
+	"generationChance": 0.07999999821186066,
+	"hiddenMultiplier": 2.0,
+	"hiddenChance": 0.20000000298023224,
+	"naturalLootBallUses": 1,
+	"ignoreLootBallUses": false,
+	"randomizeAfterUse": true,
+	"doLootBallArchaeology": true,
+	"doLootBallFishing": true,
+	"doLootBallDrops": true,
+	"doLootBallChests": true
+}

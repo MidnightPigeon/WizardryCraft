@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/cobblemon/scripts.ts"],
+  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\r\n\tinherit: 'base'\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,SAAS;AACV;",
+  "names": []
+}

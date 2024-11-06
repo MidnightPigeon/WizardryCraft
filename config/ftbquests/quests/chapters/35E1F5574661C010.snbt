@@ -1,0 +1,54 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "35E1F5574661C010"
+	group: ""
+	icon: {
+		Count: 1
+		id: "mna:entrapment_crystal"
+		tag: { }
+	}
+	id: "35E1F5574661C010"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["343DD0B9C95DCD48"]
+		description: [
+			"直接给你一套房子？想都别想）"
+			""
+			"不过确实给了一套能住的东西，对吧……"
+			""
+			"{image:minecraft:block/sculk_shrieker_can_summon_inner_top width:50 height:50 align:center}"
+		]
+		icon: "biomesoplenty:magic_door"
+		id: "643AE02E41A6FCAB"
+		rewards: [
+			{
+				id: "2BAFA5A5AE7BCA03"
+				item: "waystones:waystone"
+				type: "item"
+			}
+			{
+				id: "52E982ECB5874F0F"
+				item: "graveyard:quartz_bricks_gravestone"
+				type: "item"
+			}
+			{
+				id: "49E1FADF44A8C195"
+				item: "graveyard:sarcophagus"
+				type: "item"
+			}
+		]
+		shape: "octagon"
+		subtitle: "你就说能不能住吧"
+		tasks: [{
+			id: "5775E6A34D77A0BD"
+			title: "我想有一个家"
+			type: "checkmark"
+		}]
+		title: "愿望：我希望有个家"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "阶段与成就"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/gen4/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: {[k: string]: ModdedSpeciesData} = {\r\n\tmilotic: {\r\n\t\tinherit: true,\r\n\t\tevoType: 'levelExtra',\r\n\t\tevoCondition: 'with high Beauty',\r\n\t},\r\n\trotomheat: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Electric\", \"Ghost\"],\r\n\t},\r\n\trotomwash: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Electric\", \"Ghost\"],\r\n\t},\r\n\trotomfrost: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Electric\", \"Ghost\"],\r\n\t},\r\n\trotomfan: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Electric\", \"Ghost\"],\r\n\t},\r\n\trotommow: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Electric\", \"Ghost\"],\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAA4C;AAAA,EACxD,SAAS;AAAA,IACR,SAAS;AAAA,IACT,SAAS;AAAA,IACT,cAAc;AAAA,EACf;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AACD;",
+  "names": []
+}

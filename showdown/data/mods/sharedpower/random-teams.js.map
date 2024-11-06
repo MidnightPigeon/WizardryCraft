@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/sharedpower/random-teams.ts"],
+  "sourcesContent": ["import RandomTeams from '../../random-teams';\r\n\r\nexport class RandomSharedPowerTeams extends RandomTeams {}\r\n\r\nexport default RandomSharedPowerTeams;\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,0BAAwB;AAEjB,MAAM,+BAA+B,oBAAAA,QAAY;AAAC;AAEzD,IAAO,uBAAQ;",
+  "names": ["RandomTeams"]
+}

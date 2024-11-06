@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../data/scripts.ts"],
+  "sourcesContent": ["export const Scripts: BattleScriptsData = {\r\n\tgen: 9,\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAA6B;AAAA,EACzC,KAAK;AACN;",
+  "names": []
+}

@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5B8A6D55977C6358"
+	group: "3CEB9343E5947817"
+	icon: "cobblemon:poke_ball"
+	id: "5B8A6D55977C6358"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "45A0DEC40B3AB298"
+		subtitle: "初始精灵不算哦"
+		tasks: [{
+			action: "catch"
+			entity: "cobblemon_quests:choice_any"
+			form: "choice_any"
+			gender: "choice_any"
+			icon: "cobblemon:poke_ball"
+			id: "3E8361DC2A717C3F"
+			pokemon_type: "choice_any"
+			region: "choice_any"
+			shiny: false
+			title: "抓到一只精灵！"
+			type: "cobblemon_tasks:cobblemon_task"
+			value: 1L
+		}]
+		title: "抓到第一只精灵！"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "就决定是你了"
+}

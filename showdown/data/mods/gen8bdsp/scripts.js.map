@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../data/mods/gen8bdsp/scripts.ts"],
+  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\r\n\tgen: 8,\r\n\tinherit: 'gen8',\r\n\tside: {\r\n\t\tcanDynamaxNow() {\r\n\t\t\t// Dynamaxing is not in BDSP\r\n\t\t\treturn false;\r\n\t\t},\r\n\t},\r\n};\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,KAAK;AAAA,EACL,SAAS;AAAA,EACT,MAAM;AAAA,IACL,gBAAgB;AAEf,aAAO;AAAA,IACR;AAAA,EACD;AACD;",
+  "names": []
+}
