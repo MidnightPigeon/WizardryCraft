@@ -6,10 +6,14 @@
   "playShinySoundPlayer": false,
   "announceCrossDimensions": false,
   "broadcastDespawns": false,
+  "broadcastVolatileDespawns": false,
+  "broadcastSpeciesName": true,
+  "broadcastPlayerSpawnedOn": false,
   "broadcastRange": -1,
   "playerLimit": -1,
   "labelsForBroadcast": [
     "legendary"
   ],
+  "bucketsForBroadcast": [],
   "formatting": {}
 }
