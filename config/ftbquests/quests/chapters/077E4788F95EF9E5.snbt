@@ -33,6 +33,8 @@
 				"有关于魔法研究，请看下一页。"
 				"{@pagebreak}"
 				"首先说最重要的事情，一定&e要看奥秘之眼&r，不看卡阶段&c活该&r。"
+				""
+				"魔法研究的主线是跟随MA3这一模组进行的，基本的推进方式都在奥秘之眼和奥秘古籍中写明了。如果有不明白的地方，请多看书！"
 			]
 			icon: "mna:grimoire"
 			id: "343DD0B9C95DCD48"
@@ -149,9 +151,17 @@
 		{
 			dependencies: ["343DD0B9C95DCD48"]
 			description: [
-				"巫师的身边总需要一些伙伴，所以我们加入了神奇的宝可梦！"
-				"它们可以辅助你进行战斗，也会有一些特殊的掉落！"
+				"巫师的身边总需要一些伙伴，所以我们加入了&b神奇的宝可梦&r！"
+				"它们可以&2辅助你进行战斗&r，也会有一些特殊的掉落！"
 				"需要注意的是，抓捕它们并不是很容易……"
+				""
+				"&d通过R键，你可以召唤你的宝可梦；通过J键，你可以配置你的宝可梦。&r"
+				""
+				"&o&7*注意：每个人最多携带六只宝可梦，多余的你只能存储在电脑当中。如果捕捉到多余的宝可梦，那么它会被自动存储到电脑中。&r&r"
+				"{@pagebreak}"
+				"&c拿好你的pokepedia&r，shift潜行后，看向未知的宝可梦相关物品就可以&9通过百科全书右键以获得答案&r。"
+				""
+				"同样的，&a绝大部分宝可梦的基础知识都已经写在了内部&r，如果有什么不懂的，多读书）"
 			]
 			id: "0B5D2C4938DEE5CE"
 			rewards: [
@@ -178,11 +188,24 @@
 				}
 			]
 			subtitle: "去吧！皮卡丘！"
-			tasks: [{
-				id: "5184C3FC9E00F1AB"
-				item: "cobbledex:cobbledex_item"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5184C3FC9E00F1AB"
+					item: "cobbledex:cobbledex_item"
+					type: "item"
+				}
+				{
+					id: "6D43C2C05885AF8E"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "cobblepedia:cobblepedia"
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "同行的伙伴"
 			x: 2.5d
 			y: 0.0d

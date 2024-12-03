@@ -24,6 +24,7 @@
 		{
 			dependencies: ["223D42ABFAE31C42"]
 			id: "27D96777E5CB550D"
+			subtitle: "拿个棒子凑活一下……"
 			tasks: [{
 				id: "6910E8B5EAEFE43F"
 				item: {
@@ -35,6 +36,7 @@
 				}
 				type: "item"
 			}]
+			title: "粗糙的临时魔杖"
 			x: 0.0d
 			y: -2.0d
 		}
