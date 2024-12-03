@@ -50,11 +50,6 @@
 					type: "item"
 				}
 				{
-					id: "5CC8EFE2D074F07A"
-					item: "cobbledex:cobbledex_item"
-					type: "item"
-				}
-				{
 					id: "426F8E4D869D57DE"
 					item: "minecraft:white_bed"
 					type: "item"
@@ -71,17 +66,6 @@
 						id: "waystones:warp_stone"
 						tag: {
 							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "25BE25159655138C"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "cobblepedia:cobblepedia"
 						}
 					}
 					type: "item"
@@ -163,6 +147,7 @@
 				""
 				"同样的，&a绝大部分宝可梦的基础知识都已经写在了内部&r，如果有什么不懂的，多读书）"
 			]
+			icon: "lootballs:poke_loot_ball"
 			id: "0B5D2C4938DEE5CE"
 			rewards: [
 				{

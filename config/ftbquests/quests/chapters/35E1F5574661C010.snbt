@@ -11,44 +11,73 @@
 	id: "35E1F5574661C010"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["343DD0B9C95DCD48"]
-		description: [
-			"直接给你一套房子？想都别想）"
-			""
-			"不过确实给了一套能住的东西，对吧……"
-			""
-			"{image:minecraft:block/sculk_shrieker_can_summon_inner_top width:50 height:50 align:center}"
-		]
-		icon: "biomesoplenty:magic_door"
-		id: "643AE02E41A6FCAB"
-		rewards: [
-			{
-				id: "2BAFA5A5AE7BCA03"
-				item: "waystones:waystone"
+	quests: [
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"直接给你一套房子？想都别想）"
+				""
+				"不过确实给了一套能住的东西，对吧……"
+				""
+				"{image:minecraft:block/sculk_shrieker_can_summon_inner_top width:50 height:50 align:center}"
+			]
+			icon: "biomesoplenty:magic_door"
+			id: "643AE02E41A6FCAB"
+			rewards: [
+				{
+					id: "2BAFA5A5AE7BCA03"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "52E982ECB5874F0F"
+					item: "graveyard:quartz_bricks_gravestone"
+					type: "item"
+				}
+				{
+					id: "49E1FADF44A8C195"
+					item: "graveyard:sarcophagus"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "你就说能不能住吧"
+			tasks: [{
+				id: "5775E6A34D77A0BD"
+				title: "我想有一个家"
+				type: "checkmark"
+			}]
+			title: "愿望：我希望有个家"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"事实上本包你不需要特别高的数值，而且很多怪物&d因其魔法特性&r，&2纯粹的数值无法将其彻底击败&r。"
+				""
+				"但你仍然可以&4试试挑战自我&r。"
+				""
+				"别问我为什么会提供这个选项，问就是&c玩家里一定有抖M，而且不少&r。比如&b喜欢玩格雷科技&r的。"
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "52E66EE795136454"
+			rewards: [{
+				id: "2136AC5E3DA27385"
+				item: "enigmaticlegacy:cursed_ring"
 				type: "item"
-			}
-			{
-				id: "52E982ECB5874F0F"
-				item: "graveyard:quartz_bricks_gravestone"
-				type: "item"
-			}
-			{
-				id: "49E1FADF44A8C195"
-				item: "graveyard:sarcophagus"
-				type: "item"
-			}
-		]
-		shape: "octagon"
-		subtitle: "你就说能不能住吧"
-		tasks: [{
-			id: "5775E6A34D77A0BD"
-			title: "我想有一个家"
-			type: "checkmark"
-		}]
-		title: "愿望：我希望有个家"
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			shape: "diamond"
+			subtitle: "如果你真的想这么做的话……"
+			tasks: [{
+				id: "1112EC59E8491B51"
+				title: "希望挑战人生……？"
+				type: "checkmark"
+			}]
+			title: "更危险的道路"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 	title: "阶段与成就"
 }
