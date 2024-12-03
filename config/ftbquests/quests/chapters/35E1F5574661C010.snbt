@@ -78,6 +78,57 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			can_repeat: true
+			description: [
+				"你的战斗将取悦这个世界上司掌武力的神明……"
+				""
+				"祂会在你击杀一些生物后给予你馈赠。"
+			]
+			id: "4673641191DC6440"
+			shape: "diamond"
+			subtitle: "证明你的力量……"
+			tasks: [{
+				id: "3262ED5EADE2B761"
+				stat: "minecraft:mob_kills"
+				title: "战斗，爽！"
+				type: "stat"
+				value: 50
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"显然，你的队伍和电脑容量都是有限的，所以轮替是一种必然。"
+				""
+				"在捕捉与放生中组建你的战队吧！宝可梦之神会给予你奖励的！"
+			]
+			id: "384FE2E5E5596239"
+			shape: "diamond"
+			subtitle: "捕捉，收集，放生"
+			tasks: [{
+				action: "catch"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "599F1B9C856B21D7"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "与精灵在此结契……"
+			x: 1.5d
+			y: -1.0d
+		}
 	]
 	title: "阶段与成就"
 }

@@ -8,6 +8,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["343DD0B9C95DCD48"]
 		id: "45A0DEC40B3AB298"
 		subtitle: "初始精灵不算哦"
 		tasks: [{

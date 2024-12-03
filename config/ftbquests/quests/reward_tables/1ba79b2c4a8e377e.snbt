@@ -1,0 +1,7 @@
+{
+	id: "1BA79B2C4A8E377E"
+	loot_size: 1
+	order_index: 2
+	rewards: [{ count: 2, item: "cobblemon:ancient_jet_ball" }]
+	title: "宝可梦系奖励"
+}

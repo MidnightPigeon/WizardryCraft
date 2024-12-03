@@ -72,7 +72,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "拿上你的典籍……"
 			tasks: [
 				{
@@ -84,6 +84,24 @@
 					id: "1A5397A98AF17BAF"
 					title: "请把任务的每一页都看完！"
 					type: "checkmark"
+				}
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "21295F4836B948A2"
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					title: "按J设定初始宝可梦"
+					type: "cobblemon_tasks:cobblemon_task"
 				}
 			]
 			title: "巫师之始"
@@ -116,6 +134,7 @@
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
+			description: ["在这个世界上，有一些失落的神秘力量。"]
 			id: "3253451FE8923E8B"
 			rewards: [{
 				id: "634705E5BA847667"
