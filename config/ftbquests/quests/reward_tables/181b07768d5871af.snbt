@@ -2,6 +2,9 @@
 	id: "181B07768D5871AF"
 	loot_size: 1
 	order_index: 3
-	rewards: [ ]
+	rewards: [
+		{ item: "waystones:waystone" }
+		{ count: 2, item: "enigmaticlegacy:recall_potion" }
+	]
 	title: "冒险系奖励"
 }

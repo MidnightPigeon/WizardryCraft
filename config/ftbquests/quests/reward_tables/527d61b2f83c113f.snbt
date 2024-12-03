@@ -2,6 +2,25 @@
 	id: "527D61B2F83C113F"
 	loot_size: 1
 	order_index: 1
-	rewards: [ ]
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mna:fall_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mna:drown_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
 	title: "战斗系奖励"
 }

@@ -2,6 +2,9 @@
 	id: "06B865C16DAEC510"
 	loot_size: 1
 	order_index: 0
-	rewards: [ ]
+	rewards: [
+		{ count: 5, item: "mna:vinteum_ore" }
+		{ count: 16, item: "mna:cerublossom" }
+	]
 	title: "法术系奖励"
 }

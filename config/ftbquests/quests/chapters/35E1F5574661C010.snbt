@@ -80,12 +80,19 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["343DD0B9C95DCD48"]
 			description: [
 				"你的战斗将取悦这个世界上司掌武力的神明……"
 				""
 				"祂会在你击杀一些生物后给予你馈赠。"
 			]
 			id: "4673641191DC6440"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08F91B1F81194082"
+				table_id: 5944014504495681855L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "证明你的力量……"
 			tasks: [{
@@ -100,12 +107,19 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["343DD0B9C95DCD48"]
 			description: [
 				"显然，你的队伍和电脑容量都是有限的，所以轮替是一种必然。"
 				""
 				"在捕捉与放生中组建你的战队吧！宝可梦之神会给予你奖励的！"
 			]
 			id: "384FE2E5E5596239"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E4C2DF122171737"
+				table_id: 1992731974666434430L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "捕捉，收集，放生"
 			tasks: [{
