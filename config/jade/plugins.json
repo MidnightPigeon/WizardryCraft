@@ -69,7 +69,7 @@
   "waystones": {
     "waystone": true
   },
-  "corpse": {
-    "corpse": true
+  "balm": {
+    "jade": true
   }
 }

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "077E4788F95EF9E5"
 	group: ""
-	icon: "cobblemon:heavy_duty_boots"
+	icon: "artifacts:running_shoes"
 	id: "077E4788F95EF9E5"
 	order_index: 0
 	quest_links: [ ]
@@ -20,21 +20,15 @@
 				"{@pagebreak}"
 				"本整合包通过模组增加了一批&c强度更高&r的怪物（但没有特别高，也没有额外加难度），所以前期的夜晚最好睡觉——当然你也可以去围观&4不同派系的怪物打架&r。"
 				""
-				"本整合包已添加&9地牢&r，&b逝去的下界&r以及&5outerend&r，可以通过合理的方式进行探索和寻宝。但是，&c没有神化&r！这也就意味着，强度不会高到离谱的地步，但相应的你也不能让自己快速数值膨胀。"
-				""
-				"有关于宝可梦的说明，请翻开下一页。"
-				"{@pagebreak}"
-				"本整合包添加了&b“方块宝可梦”&r及其相应的战利品系统，你可以通过捡路边的精灵球来获得一些物资——当然&b主要&r是宝可梦相关。"
-				""
-				"默认设定是J键打开宝可梦栏目，每只宝可梦有&b固定的种族值决定其属性倾向&r，招式分物理特殊变化三类，请根据宝可梦的&a属性，系别和特性&r选择合适的招式。"
-				""
-				"宝可梦可以帮助你进行战斗，但只会近战并根据系别造成不同的特殊效果。同样的，主动招惹后也会被攻击。"
+				"本整合包已添加&9地牢&r，&b更好的下界&r以及&5更好的末地&r，拥有更好的探索和寻宝体验。但是，&c没有神化&r！这也就意味着，强度不会高到离谱的地步，但相应的你也不能让自己快速数值膨胀。"
 				""
 				"有关于魔法研究，请看下一页。"
 				"{@pagebreak}"
 				"首先说最重要的事情，一定&e要看奥秘之眼&r，不看卡阶段&c活该&r。"
 				""
 				"魔法研究的主线是跟随MA3这一模组进行的，基本的推进方式都在奥秘之眼和奥秘古籍中写明了。如果有不明白的地方，请多看书！"
+				""
+				"下界和末地在你晋升并选择派系后会非常危险……因为你会被其他所有派系的生物群殴。"
 			]
 			icon: "mna:grimoire"
 			id: "343DD0B9C95DCD48"
@@ -75,6 +69,15 @@
 					item: "ftbquests:book"
 					type: "item"
 				}
+				{
+					id: "53E3CEC0B1D0911B"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -89,24 +92,6 @@
 					id: "1A5397A98AF17BAF"
 					title: "请把任务的每一页都看完！"
 					type: "checkmark"
-				}
-				{
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: ""
-					form: ""
-					gender: ""
-					id: "21295F4836B948A2"
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-					title: "按J设定初始宝可梦"
-					type: "cobblemon_tasks:cobblemon_task"
 				}
 			]
 			title: "巫师之始"
@@ -139,7 +124,7 @@
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
-			description: ["在这个世界上，有一些失落的神秘力量。"]
+			description: ["在这个世界上，有一些失落的神秘力量等待你的发掘……"]
 			id: "3253451FE8923E8B"
 			rewards: [{
 				id: "634705E5BA847667"
@@ -154,69 +139,6 @@
 			}]
 			title: "失落的历史"
 			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["343DD0B9C95DCD48"]
-			description: [
-				"巫师的身边总需要一些伙伴，所以我们加入了&b神奇的宝可梦&r！"
-				"它们可以&2辅助你进行战斗&r，也会有一些特殊的掉落！"
-				"需要注意的是，抓捕它们并不是很容易……"
-				""
-				"&d通过R键，你可以召唤你的宝可梦；通过J键，你可以配置你的宝可梦。&r"
-				""
-				"&o&7*注意：每个人最多携带六只宝可梦，多余的你只能存储在电脑当中。如果捕捉到多余的宝可梦，那么它会被自动存储到电脑中。&r&r"
-				"{@pagebreak}"
-				"&c拿好你的pokepedia&r，shift潜行后，看向未知的宝可梦相关物品就可以&9通过百科全书右键以获得答案&r。"
-				""
-				"同样的，&a绝大部分宝可梦的基础知识都已经写在了内部&r，如果有什么不懂的，多读书）"
-			]
-			icon: "lootballs:poke_loot_ball"
-			id: "0B5D2C4938DEE5CE"
-			rewards: [
-				{
-					id: "5A74624DE20B781E"
-					item: "cobblemon:master_ball"
-					type: "item"
-				}
-				{
-					id: "2F80788B9921918A"
-					item: "cobblemon:healing_machine"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "20FDC74B164FF12A"
-					item: "cobblemon:ultra_ball"
-					type: "item"
-				}
-				{
-					id: "27849B1F6B007434"
-					item: "cobblemon:pc"
-					type: "item"
-				}
-			]
-			subtitle: "去吧！皮卡丘！"
-			tasks: [
-				{
-					id: "5184C3FC9E00F1AB"
-					item: "cobbledex:cobbledex_item"
-					type: "item"
-				}
-				{
-					id: "6D43C2C05885AF8E"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "cobblepedia:cobblepedia"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "同行的伙伴"
-			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -236,6 +158,32 @@
 			title: "背上行囊，走向远方"
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"是时候开始在家里煮一些乱七八糟的东西了……"
+				"小心别把锅弄炸了哦。"
+			]
+			id: "60670082CBD81D3A"
+			rewards: [{
+				id: "267FBC70741A7D18"
+				item: "hexerei:witch_hazel_altar"
+				type: "item"
+			}]
+			subtitle: "古法手作"
+			tasks: [{
+				id: "2FB6703E456A8AF0"
+				item: {
+					Count: 1
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "神秘的巫术"
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Start of your way"]

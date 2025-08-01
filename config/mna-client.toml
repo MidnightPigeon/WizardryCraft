@@ -33,6 +33,8 @@
 	pinnedRecipeSize = 1
 	#Should affinity render on the HUD?
 	renderAffinityOnHUD = true
+	#Should the runescribing table show the recipe mutex?  This is useful for packmaking if you want to make new runes.
+	showRunescribingMutex = false
 
 #Mana and Artifice // Performance Settings
 [ma_performance]
