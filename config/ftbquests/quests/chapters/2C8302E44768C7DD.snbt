@@ -7,6 +7,20 @@
 	id: "2C8302E44768C7DD"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "上古遗物"
+	quests: [{
+		dependencies: ["343DD0B9C95DCD48"]
+		id: "18AFF6CA116906F8"
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "燃烧！"
+		tasks: [{
+			id: "454E5D7D742BFBA8"
+			item: "enigmaticlegacy:the_acknowledgment"
+			type: "item"
+		}]
+		title: "奇怪的光芒"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "上古秘辛"
 }

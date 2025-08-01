@@ -103,7 +103,53 @@
 				value: 50
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"记得好好保养你的遗物，毕竟找齐它们可不太容易。"
+				"需要注意的是，飞行卷轴是一次性用品，请谨慎使用哦）"
+			]
+			icon: "minecraft:heartbreak_pottery_sherd"
+			id: "233F9B88E8FAFFBA"
+			rewards: [{
+				id: "10AF2423F5D0D94B"
+				item: "hexerei:creative_waxing_kit"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "1！5！"
+			tasks: [
+				{
+					id: "164C56BCC02949B0"
+					item: "mna:astro_blade"
+					type: "item"
+				}
+				{
+					id: "1212A4121BC3A65A"
+					item: "mna:crystallized_wind"
+					type: "item"
+				}
+				{
+					id: "355D993BD58555DB"
+					item: "mna:fluid_jug_infinite_lava"
+					type: "item"
+				}
+				{
+					id: "38D5DF240B249B00"
+					item: "mna:runic_malus"
+					type: "item"
+				}
+				{
+					id: "5CE20AAAFF73C8D7"
+					item: "mna:icarian_flight"
+					type: "item"
+				}
+			]
+			title: "失落的技艺"
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "阶段与成就"
