@@ -1,6 +1,6 @@
-//宝可梦相关修改在这里编写
-
+//铁魔法相关修改写在这里
 ServerEvents.recipes(event => {
     
+
 
 })
