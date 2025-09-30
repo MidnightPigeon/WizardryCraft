@@ -54,7 +54,7 @@
 		{
 			dependencies: ["343DD0B9C95DCD48"]
 			description: [
-				"事实上本包你不需要特别高的数值，而且很多怪物&d因其魔法特性&r，&2纯粹的数值无法将其彻底击败&r。"
+				"事实上本包你不需要特别高的数值，而且很多怪物&d因戒指特性以及生物魔法强度&r，&2会让你佩戴戒指时被全阵营远程群殴&r。"
 				""
 				"但你仍然可以&4试试挑战自我&r。"
 				""
@@ -89,8 +89,8 @@
 			id: "4673641191DC6440"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "08F91B1F81194082"
-				table_id: 5944014504495681855L
+				id: "2312886114FCA3DA"
+				table_id: 1736990287040377263L
 				type: "random"
 			}]
 			shape: "diamond"
@@ -108,7 +108,7 @@
 		{
 			dependencies: ["343DD0B9C95DCD48"]
 			description: [
-				"记得好好保养你的遗物，毕竟找齐它们可不太容易。"
+				"记得好好保养你的遗物，毕竟找齐它们可不太容易——虽然它们其实不需要打蜡。"
 				"需要注意的是，飞行卷轴是一次性用品，请谨慎使用哦）"
 			]
 			icon: "minecraft:heartbreak_pottery_sherd"
@@ -144,6 +144,11 @@
 				{
 					id: "5CE20AAAFF73C8D7"
 					item: "mna:icarian_flight"
+					type: "item"
+				}
+				{
+					id: "47559FB49DA20EA6"
+					item: "mna:bound_charm"
 					type: "item"
 				}
 			]
