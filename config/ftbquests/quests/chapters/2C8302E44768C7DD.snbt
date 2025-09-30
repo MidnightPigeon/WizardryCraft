@@ -9,6 +9,12 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["343DD0B9C95DCD48"]
+		description: [
+			"作为一本书，它可能没有那么清晰……"
+			"但作为前期武器，它还是很强大的。"
+			""
+			"&o&c*用火焰点燃怪物显然也是一种启示（&r&r"
+		]
 		id: "18AFF6CA116906F8"
 		shape: "hexagon"
 		size: 2.0d

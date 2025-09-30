@@ -1,4 +1,5 @@
 {
+	icon: "mna:astro_blade"
 	id: "527D61B2F83C113F"
 	loot_size: 1
 	order_index: 1

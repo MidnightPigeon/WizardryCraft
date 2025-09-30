@@ -185,6 +185,32 @@
 			x: 2.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			id: "00E9BDA3BF445970"
+			subtitle: "弱小，固定，但是能用"
+			tasks: [{
+				id: "38C07C0CD11CD976"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "次级法术"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			id: "4D1A06BC363CD60A"
+			subtitle: "自己动手丰衣足食"
+			tasks: [{
+				id: "64E25E446767CF36"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			title: "……体力活？"
+			x: 2.0d
+			y: -2.0d
+		}
 	]
 	subtitle: ["Start of your way"]
 	title: "踏上征途"

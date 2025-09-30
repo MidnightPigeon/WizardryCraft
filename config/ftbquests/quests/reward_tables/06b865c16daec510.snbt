@@ -1,4 +1,5 @@
 {
+	icon: "minecraft:enchanting_table"
 	id: "06B865C16DAEC510"
 	loot_size: 1
 	order_index: 0

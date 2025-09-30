@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1C2D52B8819E8E3B"
+	group: "3CEB9343E5947817"
+	icon: {
+		Count: 1
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "tconstruct:slimesteel_block"
+		}
+	}
+	id: "1C2D52B8819E8E3B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["343DD0B9C95DCD48"]
+		id: "6373844708FDAAEB"
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "我爱学习！"
+		tasks: [{
+			id: "5F2474E3D969D754"
+			item: "tconstruct:materials_and_you"
+			type: "item"
+		}]
+		title: "基础知识"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "劳动者"
+}

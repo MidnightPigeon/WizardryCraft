@@ -6,6 +6,7 @@
 	rewards: [
 		{ item: "waystones:waystone" }
 		{ count: 2, item: "enigmaticlegacy:recall_potion" }
+		{ item: "minecraft:skeleton_skull" }
 	]
 	title: "冒险系奖励"
 }

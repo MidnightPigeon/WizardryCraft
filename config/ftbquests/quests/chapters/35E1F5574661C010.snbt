@@ -76,7 +76,7 @@
 			}]
 			title: "更危险的道路"
 			x: 0.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
