@@ -17,5 +17,16 @@
     "item.kubejs.liquid_purified_vinteum_bucket": "桶装纯净温特姆",
     "item.kubejs.liquid_superheated_purified_vinteum_bucket": "桶装超热纯净温特姆",
     "item.kubejs.liquid_transmuted_silver_bucket": "桶装嬗变银",
-    "item.kubejs.ritual_rune_cast": "符文铸模：仪式"
+    
+    "item.kubejs.ritual_rune_cast": "符文铸模：仪式",
+    "item.kubejs.defense_rune_cast": "符文铸模：防御",
+    "item.kubejs.aura_rune_cast": "符文铸模：光环",
+    "item.kubejs.projection_rune_cast": "符文铸模：摄魔",
+    "item.kubejs.marking_rune_cast": "符文铸模：标记",
+    "item.kubejs.earth_rune_cast": "符文铸模：地",
+    "item.kubejs.fire_rune_cast": "符文铸模：火",
+    "item.kubejs.water_rune_cast": "符文铸模：水",
+    "item.kubejs.air_rune_cast": "符文铸模：气",
+    "item.kubejs.ender_rune_cast": "符文铸模：末影",
+    "item.kubejs.arcane_rune_cast": "符文铸模：奥术"
 }

@@ -14,6 +14,56 @@ StartupEvents.registry('item', (event) => {
 		.displayName('Ritual Rune Cast')
 		.tag('tconstruct:casts/runes')
 		.texture('kubejs:item/ritual_rune_cast')
+	//防御符文
+	event.create('defense_rune_cast')
+		.displayName('Defense Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/defense_rune_cast')
+	//光环符文
+	event.create('aura_rune_cast')
+		.displayName('Aura Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/aura_rune_cast')
+	//摄魔符文
+	event.create('projection_rune_cast')
+		.displayName('Projection Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/projection_rune_cast')
+	//标记符文
+	event.create('marking_rune_cast')
+		.displayName('Marking Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/marking_rune_cast')
+	//地水火风符文
+	event.create('earth_rune_cast')
+		.displayName('Earth Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/earth_rune_cast')
+	event.create('water_rune_cast')
+		.displayName('Water Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/water_rune_cast')
+	event.create('fire_rune_cast')
+		.displayName('Fire Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/fire_rune_cast')
+	event.create('air_rune_cast')
+		.displayName('Air Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/air_rune_cast')
+	//末影符文
+	event.create('ender_rune_cast')
+		.displayName('Ender Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/ender_rune_cast')
+	//奥术符文
+	event.create('arcane_rune_cast')
+		.displayName('Arcane Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/arcane_rune_cast')
+
+
+
 })
 
 StartupEvents.registry('fluid', (event) => {
