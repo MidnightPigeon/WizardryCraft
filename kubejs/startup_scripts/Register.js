@@ -8,6 +8,12 @@ StartupEvents.registry('block', (event) => {
 StartupEvents.registry('item', (event) => {
     //注册物品写在这里
 
+	//匠魂-MNA系列模板
+	//仪式符文
+	event.create('ritual_rune_cast')
+		.displayName('Ritual Rune Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/ritual_rune_cast')
 })
 
 StartupEvents.registry('fluid', (event) => {
@@ -36,5 +42,11 @@ StartupEvents.registry('fluid', (event) => {
 		.thinTexture(0xE9B3F8)
 		.bucketColor(0xE9B3F8)
 		.displayName('Liquid Superheated Purified Vinteum')
+		.createAttributes().dropOff(2).tickDelay(40)
+	//嬗变银
+	event.create('liquid_transmuted_silver')
+		.thinTexture(0xC0C0C0)
+		.bucketColor(0xC0C0C0)
+		.displayName('Liquid Transmuted Silver')
 		.createAttributes().dropOff(2).tickDelay(40)
 })
