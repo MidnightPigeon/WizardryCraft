@@ -1,0 +1,17 @@
+{
+    "fluid.kubejs.liquid_vinteum": "液态温特姆",
+    "fluid.kubejs.liquid_superheated_vinteum": "液态超热温特姆",
+    "fluid.kubejs.liquid_purified_vinteum": "液态纯净温特姆",
+    "fluid.kubejs.liquid_superheated_purified_vinteum": "液态超热纯净温特姆",
+
+
+    "block.kubejs.liquid_vinteum": "液态温特姆",
+    "block.kubejs.liquid_superheated_vinteum": "液态超热温特姆",
+    "block.kubejs.liquid_purified_vinteum": "液态纯净温特姆",
+    "block.kubejs.liquid_superheated_purified_vinteum": "液态超热纯净温特姆",
+
+    "item.kubejs.liquid_vinteum_bucket": "桶装温特姆",
+    "item.kubejs.liquid_superheated_vinteum_bucket": "桶装超热温特姆",
+    "item.kubejs.liquid_purified_vinteum_bucket": "桶装纯净温特姆",
+    "item.kubejs.liquid_superheated_purified_vinteum_bucket": "桶装超热纯净温特姆"
+}
