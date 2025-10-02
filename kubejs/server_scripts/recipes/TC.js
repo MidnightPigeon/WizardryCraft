@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         })
     }
     //铸造符文（其实铸造别的也行）
-    function RuneCasting(fluid, rune, cast, fluid_amount) {
+    function TableCasting(fluid, result, cast, fluid_amount) {
         event.custom({
             "type": "tconstruct:casting_table",
             "cast": {
@@ -63,19 +63,19 @@ ServerEvents.recipes(event => {
                 "fluid": fluid
             },
             "result": {
-                "item": rune
+                "item": result
             }
         })
     }
     //符文铸造包
     function RunePack(rune, cast, rune_amount){
         CastCreation('kubejs:liquid_transmuted_silver', rune, cast);
-        RuneCasting('kubejs:liquid_vinteum', rune, cast, rune_amount);
+        TableCasting('kubejs:liquid_vinteum', rune, cast, rune_amount);
     }
     //构装体部件铸造包
     function ConstructPack(part, cast){
         CastCreation('kubejs:liquid_transmuted_silver', part, cast);
-        RuneCasting('kubejs:liquid_purified_vinteum', part, cast, 90);
+        TableCasting('kubejs:liquid_purified_vinteum', part, cast, 90);
     }
 
 
@@ -134,5 +134,15 @@ ServerEvents.recipes(event => {
     RunePack('mna:rune_air', 'kubejs:air_rune_cast', 90);
     RunePack('mna:rune_ender', 'kubejs:ender_rune_cast', 90);
     RunePack('mna:rune_arcane', 'kubejs:arcane_rune_cast', 90);
+
+    //构装体部件铸造
+    ConstructPack('mna:constructs/rune_rod', 'kubejs:rod_frame_cast');
+    ConstructPack('mna:constructs/rune_torso', 'kubejs:torso_frame_cast');
+    ConstructPack('mna:constructs/rune_head', 'kubejs:head_frame_cast');
+    ConstructPack('mna:constructs/rune_hips', 'kubejs:hips_frame_cast');
+    ConstructPack('mna:constructs/rune_hammer', 'kubejs:hammer_frame_cast');
+    ConstructPack('mna:constructs/rune_claw', 'kubejs:claw_frame_cast');
+    ConstructPack('mna:constructs/rune_axe', 'kubejs:axe_frame_cast');
+
 
 })

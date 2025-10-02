@@ -36,43 +36,26 @@ event.remove({id:'配方ID'})
 /*
 
 //熔铸产出部分
-//多次使用
+//铸模配方
 event.custom({
     "type": "tconstruct:casting_table",
     "cast": {
-        "tag": "tconstruct:casts/multi_use/ingot"
+        "item": 基底材料（一般是铸模）
     },
-    "cooling_time": 60,
+    "cast_consumed": true,//是否消耗材料（默认不消耗，可以不写这行）
+    "cooling_time": 冷却时间ticks,
     "fluid": {
-        "amount": 90,
-        "fluid": "液体"
+        "amount": 流体量mb,
+        "fluid": 流体种类
     },
-    "result": {
-        "item": "物品"
-    }
-}
-//单次使用
-event.custom({
-    "type": "tconstruct:casting_table",
-    "cast": {
-        "tag": "tconstruct:casts/single_use/ingot"
-    },
-    "cast_consumed": true,
-    "cooling_time": 60,
-    "fluid": {
-        "amount": 90,
-        "fluid": "液体"
-    },
-    "result": {
-        "item": "物品"
-    }
-}
-//方块
+    "result": 产出物品,
+})
+//铸造盆配方
 event.custom({
     "type": "tconstruct:casting_basin",
-    "cooling_time": 180,
+    "cooling_time": 冷却时间ticks,
     "fluid": {
-        "amount": 810,
+        "amount": 液体mb,
         "fluid": "液体"
     },
     "result": {

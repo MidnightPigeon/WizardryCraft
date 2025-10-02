@@ -63,7 +63,43 @@ StartupEvents.registry('item', (event) => {
 		.texture('kubejs:item/arcane_rune_cast')
 
 
+	//构装体架构：杆
+	event.create('rod_frame_cast')
+		.displayName('Rod Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/rod_cast')
+	//构装体架构：躯干
+	event.create('torso_frame_cast')
+		.displayName('Torso Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/torso_cast')
+	//构装体架构：头
+	event.create('head_frame_cast')
+		.displayName('Head Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/head_cast')
+	//构装体架构：下半身
+	event.create('hips_frame_cast')
+		.displayName('Hips Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/hips_cast')
+	//构装体架构：抓手
+	event.create('claw_frame_cast')
+		.displayName('Claw Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/claw_cast')
+	//构装体架构：锤
+	event.create('hammer_frame_cast')
+		.displayName('Hammer Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/hammer_cast')
+	//构装体架构：斧
+	event.create('axe_frame_cast')
+		.displayName('Axe Frame Cast')
+		.tag('tconstruct:casts/runes')
+		.texture('kubejs:item/axe_cast')
 
+		
 })
 
 StartupEvents.registry('fluid', (event) => {

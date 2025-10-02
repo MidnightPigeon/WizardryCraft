@@ -28,5 +28,13 @@
     "item.kubejs.water_rune_cast": "符文铸模：水",
     "item.kubejs.air_rune_cast": "符文铸模：气",
     "item.kubejs.ender_rune_cast": "符文铸模：末影",
-    "item.kubejs.arcane_rune_cast": "符文铸模：奥术"
+    "item.kubejs.arcane_rune_cast": "符文铸模：奥术",
+
+    "item.kubejs.rod_frame_cast": "构装体构架铸模：杆",
+    "item.kubejs.torso_frame_cast": "构装体构架铸模：躯干",
+    "item.kubejs.head_frame_cast": "构装体构架铸模：头",
+    "item.kubejs.hips_frame_cast": "构装体构架铸模：下半身",
+    "item.kubejs.hammer_frame_cast": "构装体构架铸模：锤",
+    "item.kubejs.claw_frame_cast": "构装体构架铸模：抓手",
+    "item.kubejs.axe_frame_cast": "构装体构架铸模：斧"
 }
