@@ -78,10 +78,78 @@ ServerEvents.recipes(event => {
         TableCasting('kubejs:liquid_purified_vinteum', part, cast, 90);
     }
 
+    //墓园：暗铁
+    tconstruct.melting(Fluid.of('kubejs:liquid_dark_iron', 90), 'graveyard:dark_iron_ingot').temperature(800).time(60);
+        tconstruct.melting(Fluid.of('kubejs:liquid_dark_iron', 810), 'graveyard:dark_iron_block').temperature(800).time(540);
+    FluidtoIngot('kubejs:liquid_dark_iron', 'graveyard:dark_iron_ingot');
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cooling_time": 200,
+        "fluid": {
+            "amount": 810,
+            "fluid": 'kubejs:liquid_dark_iron'
+        },
+        "result": {
+            "item": 'graveyard:dark_iron_block'
+        }
+    })
 
+    //更好的末地（补全）：末影碎片，末影矿石，末影块
+    tconstruct.melting(Fluid.of('tconstruct:molten_ender', 50), 'betterend:ender_shard').temperature(477).time(60);
+    tconstruct.melting(Fluid.of('tconstruct:molten_ender', 250), 'betterend:ender_ore').temperature(477).time(180);
+        tconstruct.melting(Fluid.of('tconstruct:molten_ender', 1000), 'betterend:ender_block').temperature(477).time(360);
+    //更好的末地：末影铁，太古合金，终末合金
+    //末影铁，粗末影铁，末影铁矿石
+    tconstruct.melting(Fluid.of('kubejs:liquid_thallasium', 90), 'betterend:thallasium_ingot').temperature(750).time(60);
+    tconstruct.melting(Fluid.of('kubejs:liquid_thallasium', 180), 'betterend:thallasium_raw').temperature(750).time(60);
+    tconstruct.melting(Fluid.of('kubejs:liquid_thallasium', 270), 'betterend:thallasium_ore').temperature(750).time(120);
+        tconstruct.melting(Fluid.of('kubejs:liquid_thallasium', 810), 'betterend:thallasium_block').temperature(750).time(360);
+    FluidtoIngot('kubejs:liquid_thallasium', 'betterend:thallasium_ingot');
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cooling_time": 200,
+        "fluid": {
+            "amount": 810,
+            "fluid": 'kubejs:liquid_thallasium'
+        },
+        "result": {
+            "item": 'betterend:thallasium_block'
+        }
+    })
+    //太古合金
+    tconstruct.melting(Fluid.of('kubejs:liquid_aeternium', 90), 'betterend:aeternium_ingot').temperature(1000).time(80);
+        tconstruct.melting(Fluid.of('kubejs:liquid_aeternium', 810), 'betterend:aeternium_block').temperature(1000).time(480);
+    FluidtoIngot('kubejs:liquid_aeternium', 'betterend:aeternium_ingot');
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cooling_time": 200,
+        "fluid": {
+            "amount": 810,
+            "fluid": 'kubejs:liquid_aeternium'
+        },
+        "result": {
+            "item": 'betterend:aeternium_block'
+        }
+    })
+    //终末合金
+    tconstruct.melting(Fluid.of('kubejs:liquid_terminite', 90), 'betterend:terminite_ingot').temperature(1250).time(100);
+        tconstruct.melting(Fluid.of('kubejs:liquid_terminite', 810), 'betterend:terminite_block').temperature(1250).time(600);
+    FluidtoIngot('kubejs:liquid_terminite', 'betterend:terminite_ingot');
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cooling_time": 200,
+        "fluid": {
+            "amount": 810,
+            "fluid": 'kubejs:liquid_terminite'
+        },
+        "result": {
+            "item": 'betterend:terminite_block'
+        }
+    })
 
     //温特姆系列
     tconstruct.melting(Fluid.of('kubejs:liquid_vinteum', 90), 'mna:vinteum_ingot').temperature(500).time(50);
+        tconstruct.melting(Fluid.of('kubejs:liquid_vinteum', 810), 'mna:vinteum_block').temperature(500).time(450);
     FluidtoIngot('kubejs:liquid_vinteum', 'mna:vinteum_ingot');
     event.custom({
         "type": "tconstruct:casting_basin",

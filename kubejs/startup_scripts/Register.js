@@ -135,4 +135,32 @@ StartupEvents.registry('fluid', (event) => {
 		.bucketColor(0xC0C0C0)
 		.displayName('Liquid Transmuted Silver')
 		.createAttributes().dropOff(2).tickDelay(40)
+
+
+	//暗铁
+	event.create('liquid_dark_iron')
+		.thinTexture(0x303030)
+		.bucketColor(0x303030)
+		.displayName('Liquid Dark Iron')
+		.createAttributes().dropOff(2).tickDelay(40)
+
+	//末影铁
+	event.create('liquid_thallasium')
+		.thinTexture(0xACDDE5)
+		.bucketColor(0xACDDE5)
+		.displayName('Liquid Thallasium')
+		.createAttributes().dropOff(2).tickDelay(40)
+	//太古合金
+	event.create('liquid_aeternium')
+		.thinTexture(0x37946E)
+		.bucketColor(0x37946E)
+		.displayName('Liquid Aeternium')
+		.createAttributes().dropOff(2).tickDelay(40)
+	//终末合金
+	event.create('liquid_terminite')
+		.thinTexture(0x4CDABB)
+		.bucketColor(0x4CDABB)
+		.displayName('Liquid Terminite')
+		.createAttributes().dropOff(2).tickDelay(40)
+
 })

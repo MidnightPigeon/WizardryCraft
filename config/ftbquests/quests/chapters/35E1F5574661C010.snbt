@@ -109,7 +109,7 @@
 			dependencies: ["343DD0B9C95DCD48"]
 			description: [
 				"记得好好保养你的遗物，毕竟找齐它们可不太容易——虽然它们其实不需要打蜡。"
-				"需要注意的是，飞行卷轴是一次性用品，请谨慎使用哦）"
+				"需要注意的是，飞行卷轴是一次性用品（但它可以用来进行更伟大的创造）。"
 			]
 			icon: "minecraft:heartbreak_pottery_sherd"
 			id: "233F9B88E8FAFFBA"

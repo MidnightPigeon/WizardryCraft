@@ -1,0 +1,36 @@
+{
+    "fluid.constructs_casting.arcane_essence": "奥术精华",
+    "fluid.constructs_casting.fire_essence": "火焰精华",
+    "fluid.constructs_casting.ice_essence": "冰霜精华",
+    "fluid.constructs_casting.lightning_essence": "雷霆精华",
+    "fluid.constructs_casting.ender_essence": "末影精华",
+    "fluid.constructs_casting.holy_essence": "神圣精华",
+    "fluid.constructs_casting.blood_essence": "猩红精华",
+    "fluid.constructs_casting.evocation_essence": "唤魔精华",
+    "fluid.constructs_casting.nature_essence": "自然精华",
+    "fluid.constructs_casting.cinder_essence": "灰烬精华",
+
+    
+    "block.constructs_casting.arcane_essence": "奥术精华",
+    "block.constructs_casting.fire_essence": "火焰精华",
+    "block.constructs_casting.ice_essence": "冰霜精华",
+    "block.constructs_casting.lightning_essence": "雷霆精华",
+    "block.constructs_casting.ender_essence": "末影精华",
+    "block.constructs_casting.holy_essence": "神圣精华",
+    "block.constructs_casting.blood_essence": "猩红精华",
+    "block.constructs_casting.evocation_essence": "唤魔精华",
+    "block.constructs_casting.nature_essence": "自然精华",
+    "block.constructs_casting.cinder_essence": "灰烬精华",
+
+    "item.constructs_casting.arcane_essence_bucket": "桶装奥术精华",
+    "item.constructs_casting.fire_essence_bucket": "桶装火焰精华",
+    "item.constructs_casting.ice_essence_bucket": "桶装冰霜精华",
+    "item.constructs_casting.lightning_essence_bucket": "桶装雷霆精华",
+    "item.constructs_casting.ender_essence_bucket": "桶装末影精华",
+    "item.constructs_casting.holy_essence_bucket": "桶装神圣精华",
+    "item.constructs_casting.blood_essence_bucket": "桶装猩红精华",
+    "item.constructs_casting.evocation_essence_bucket": "桶装唤魔精华",
+    "item.constructs_casting.nature_essence_bucket": "桶装自然精华",
+    "item.constructs_casting.cinder_essence_bucket": "桶装灰烬精华"
+    
+}

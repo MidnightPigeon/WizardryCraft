@@ -5,19 +5,34 @@
     "fluid.kubejs.liquid_superheated_purified_vinteum": "液态超热纯净温特姆",
     "fluid.kubejs.liquid_transmuted_silver": "液态嬗变银",
 
+    "fluid.kubejs.liquid_dark_iron": "熔融暗铁",
+
+    "fluid.kubejs.liquid_thallasium": "熔融末影铁",
+    "fluid.kubejs.liquid_aeternium": "熔融太古合金",
+    "fluid.kubejs.liquid_terminite": "熔融终末合金",
+
 
     "block.kubejs.liquid_vinteum": "液态温特姆",
     "block.kubejs.liquid_superheated_vinteum": "液态超热温特姆",
     "block.kubejs.liquid_purified_vinteum": "液态纯净温特姆",
     "block.kubejs.liquid_superheated_purified_vinteum": "液态超热纯净温特姆",
     "block.kubejs.liquid_transmuted_silver": "液态嬗变银",
+    "block.kubejs.liquid_dark_iron": "熔融暗铁",
+    "block.kubejs.liquid_thallasium": "熔融末影铁",
+    "block.kubejs.liquid_aeternium": "熔融太古合金",
+    "block.kubejs.liquid_terminite": "熔融终末合金",
+
 
     "item.kubejs.liquid_vinteum_bucket": "桶装温特姆",
     "item.kubejs.liquid_superheated_vinteum_bucket": "桶装超热温特姆",
     "item.kubejs.liquid_purified_vinteum_bucket": "桶装纯净温特姆",
     "item.kubejs.liquid_superheated_purified_vinteum_bucket": "桶装超热纯净温特姆",
     "item.kubejs.liquid_transmuted_silver_bucket": "桶装嬗变银",
-    
+    "item.kubejs.liquid_dark_iron_bucket": "桶装暗铁",
+    "item.kubejs.liquid_thallasium_bucket": "桶装末影铁",
+    "item.kubejs.liquid_aeternium_bucket": "桶装太古合金",
+    "item.kubejs.liquid_terminite_bucket": "桶装终末合金",
+
     "item.kubejs.ritual_rune_cast": "符文铸模：仪式",
     "item.kubejs.defense_rune_cast": "符文铸模：防御",
     "item.kubejs.aura_rune_cast": "符文铸模：光环",
