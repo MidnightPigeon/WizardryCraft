@@ -37,30 +37,34 @@ event.remove({id:'配方ID'})
 
 //熔铸产出部分
 //铸模配方
-event.custom({
-    "type": "tconstruct:casting_table",
-    "cast": {
-        "item": 基底材料（一般是铸模）
-    },
-    "cast_consumed": true,//是否消耗材料（默认不消耗，可以不写这行）
-    "cooling_time": 冷却时间ticks,
-    "fluid": {
-        "amount": 流体量mb,
-        "fluid": 流体种类
-    },
-    "result": 产出物品,
-})
+    event.custom({
+        "type": "tconstruct:casting_table",
+        "cast": {
+            "item": 基底材料（一般是铸模）（cast可以不写）
+        },
+        "cast_consumed": true,//是否消耗材料（默认不消耗，可以不写这行）
+        "cooling_time": 冷却时间4=1s,
+        "fluid": {
+            "amount": 流体量mb,
+            "fluid": 流体种类
+        },
+        "result": 产出物品,
+    })
 //铸造盆配方
-event.custom({
-    "type": "tconstruct:casting_basin",
-    "cooling_time": 冷却时间ticks,
-    "fluid": {
-        "amount": 液体mb,
-        "fluid": "液体"
-    },
-    "result": {
-        "item": "方块"
-  }
-})
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cast": {
+            "item": 基底材料（cast可以不写）
+        },
+        "cast_consumed": true,//是否消耗材料（默认不消耗，可以不写这行）
+        "cooling_time": 冷却时间4=1s,
+        "fluid": {
+            "amount": 液体mb,
+            "fluid": "液体"
+        },
+        "result": {
+            "item": "产物"
+        }
+    })
 
 */

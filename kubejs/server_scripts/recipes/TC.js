@@ -94,6 +94,11 @@ ServerEvents.recipes(event => {
         }
     })
 
+    //移除匠魂铁锭配方并补回
+    event.remove({id:'tconstruct:smeltery/melting/metal/iron/ingot'});
+    tconstruct.melting(Fluid.of('tconstruct:molten_iron', 90), 'minecraft:iron_ingot').temperature(800).time(300);
+
+
     //更好的末地（补全）：末影碎片，末影矿石，末影块
     tconstruct.melting(Fluid.of('tconstruct:molten_ender', 50), 'betterend:ender_shard').temperature(477).time(60);
     tconstruct.melting(Fluid.of('tconstruct:molten_ender', 250), 'betterend:ender_ore').temperature(477).time(180);
@@ -144,6 +149,24 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "item": 'betterend:terminite_block'
+        }
+    })
+
+    //更好的下界：辛辛那金
+    tconstruct.melting(Fluid.of('kubejs:liquid_cincinnasite', 90), 'betternether:cincinnasite_ingot').temperature(700).time(60);
+    tconstruct.melting(Fluid.of('kubejs:liquid_cincinnasite', 90), 'betternether:cincinnasite').temperature(700).time(60);
+        tconstruct.melting(Fluid.of('kubejs:liquid_cincinnasite', 360), 'betternether:cincinnasite_forged').temperature(700).time(200);
+        tconstruct.melting(Fluid.of('kubejs:liquid_cincinnasite', 360), 'betternether:cincinnasite_block').temperature(700).time(200);
+    FluidtoIngot('kubejs:liquid_cincinnasite', 'betternether:cincinnasite_ingot');
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cooling_time": 160,
+        "fluid": {
+            "amount": 360,
+            "fluid": 'kubejs:liquid_cincinnasite'
+        },
+        "result": {
+            "item": 'betternether:cincinnasite_forged'
         }
     })
 

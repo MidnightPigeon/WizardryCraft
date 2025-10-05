@@ -162,5 +162,11 @@ StartupEvents.registry('fluid', (event) => {
 		.bucketColor(0x4CDABB)
 		.displayName('Liquid Terminite')
 		.createAttributes().dropOff(2).tickDelay(40)
+	//辛辛那金
+	event.create('liquid_cincinnasite')
+		.thinTexture(0xFFD700)
+		.bucketColor(0xFFD700)
+		.displayName('Liquid Cincinnasite')
+		.createAttributes().dropOff(2).tickDelay(40)
 
 })

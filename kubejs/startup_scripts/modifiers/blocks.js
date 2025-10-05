@@ -13,4 +13,9 @@ BlockEvents.modification(event => {
     LightDefine('kubejs:liquid_purified_vinteum', 10)
     LightDefine('kubejs:liquid_superheated_purified_vinteum', 15)
 
+    //定义辛辛那金，末影铁和终末合金流体光照
+    LightDefine('kubejs:liquid_cincinnasite', 10)
+    LightDefine('kubejs:liquid_thallasium', 10)
+    LightDefine('kubejs:liquid_terminite', 15)
+
 })
