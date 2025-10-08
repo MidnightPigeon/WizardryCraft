@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:'mna',output:'mna:manaweaver_wand'},
         'mna:vinteum_dust' , 'mna:transmuted_silver')
     
-    //高山流水之瓮灌注1000桶熔岩产生熔火地核之瓮
+    //高山流水之瓮灌注404桶熔岩产生熔火地核之瓮
     event.custom({
         "type": "tconstruct:casting_table",
         "cast": {
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         "cast_consumed": true,
         "cooling_time": 20,
         "fluid": {
-            "amount": 1000000,
+            "amount": 404000,
             "fluid": 'minecraft:lava'
         },
         "result": 'mna:fluid_jug_infinite_lava',

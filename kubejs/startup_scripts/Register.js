@@ -113,7 +113,7 @@ StartupEvents.registry('fluid', (event) => {
 		.createAttributes().dropOff(2).tickDelay(40)
     //超热温特姆
     event.create('liquid_superheated_vinteum')
-		.thinTexture(0xFFC0CB)
+		.thickTexture(0xFFC0CB)
 		.bucketColor(0xFFC0CB)
 		.displayName('Liquid Superheated Vinteum')
 		.createAttributes().dropOff(2).tickDelay(40)
@@ -125,7 +125,7 @@ StartupEvents.registry('fluid', (event) => {
 		.createAttributes().dropOff(2).tickDelay(40)
 	//超热纯净温特姆
 	event.create('liquid_superheated_purified_vinteum')
-		.thinTexture(0xE9B3F8)
+		.thickTexture(0xE9B3F8)
 		.bucketColor(0xE9B3F8)
 		.displayName('Liquid Superheated Purified Vinteum')
 		.createAttributes().dropOff(2).tickDelay(40)
@@ -139,7 +139,7 @@ StartupEvents.registry('fluid', (event) => {
 
 	//暗铁
 	event.create('liquid_dark_iron')
-		.thinTexture(0x303030)
+		.thickTexture(0x303030)
 		.bucketColor(0x303030)
 		.displayName('Liquid Dark Iron')
 		.createAttributes().dropOff(2).tickDelay(40)
@@ -152,13 +152,13 @@ StartupEvents.registry('fluid', (event) => {
 		.createAttributes().dropOff(2).tickDelay(40)
 	//太古合金
 	event.create('liquid_aeternium')
-		.thinTexture(0x37946E)
+		.thickTexture(0x37946E)
 		.bucketColor(0x37946E)
 		.displayName('Liquid Aeternium')
 		.createAttributes().dropOff(2).tickDelay(40)
 	//终末合金
 	event.create('liquid_terminite')
-		.thinTexture(0x4CDABB)
+		.thickTexture(0x4CDABB)
 		.bucketColor(0x4CDABB)
 		.displayName('Liquid Terminite')
 		.createAttributes().dropOff(2).tickDelay(40)
