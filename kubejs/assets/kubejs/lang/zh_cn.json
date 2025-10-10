@@ -53,5 +53,13 @@
     "item.kubejs.hips_frame_cast": "构装体构架铸模：下半身",
     "item.kubejs.hammer_frame_cast": "构装体构架铸模：锤",
     "item.kubejs.claw_frame_cast": "构装体构架铸模：抓手",
-    "item.kubejs.axe_frame_cast": "构装体构架铸模：斧"
+    "item.kubejs.axe_frame_cast": "构装体构架铸模：斧",
+
+
+    "material.kubejs.transmuted_silver":"嬗变银",
+    "material.kubejs.transmuted_silver.flavor": "魔法改变生活！",
+    "material.kubejs.transmuted_silver.encyclopedia": "你略微感到其与法力的共振……",
+    "material.kubejs.transmuted_silver.ranged": "远程特殊效果（暂留）",
+    "material.kubejs.transmuted_silver.armor": "盔甲特殊效果（暂留）"
+
 }
