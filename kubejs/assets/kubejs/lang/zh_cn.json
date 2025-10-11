@@ -60,6 +60,10 @@
     "material.kubejs.transmuted_silver.flavor": "魔法改变生活！",
     "material.kubejs.transmuted_silver.encyclopedia": "你略微感到其与法力的共振……",
     "material.kubejs.transmuted_silver.ranged": "远程特殊效果（暂留）",
-    "material.kubejs.transmuted_silver.armor": "盔甲特殊效果（暂留）"
+    "material.kubejs.transmuted_silver.armor": "盔甲特殊效果（暂留）",
+
+    "modifier.kubejs.magical":"魔力亲和",
+    "modifier.kubejs.magical.description": "每级获得+10法力值。",
+    "modifier.kubejs.magical.flavor": "优质魔力导体！"
 
 }
