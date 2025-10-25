@@ -156,6 +156,32 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"基于魔力的升腾和元素的活化，地下营地中，宝箱结构&d全部都是宝箱怪！&r"
+				"它们&b必定会携带一份饰品&r，这会让你变得更强……前提是没被打死。"
+			]
+			id: "261F570B2A31A3F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39A36354E88BD789"
+				table_id: 1736990287040377263L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "芙莉莲最惨的一期"
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "5FEAC8D5F2C12603"
+				type: "kill"
+				value: 1L
+			}]
+			title: "都是活的！"
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 	title: "阶段与成就"
 }
