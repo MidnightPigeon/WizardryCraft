@@ -18,9 +18,9 @@ animalSouls = 100
 undeadSouls = 50
 #How many ticks should it take for a player to fully regenerate their mana bar?  This doesn't take into account hunger, set bonuses, or other effects; this is the baseline value.
 #Range: > 1
-ticksForFullManaRegen = 2400
+ticksForFullManaRegen = 1800
 #How much bonus health does each tier give?  Only up to the first five values will be used.  Reminder that a heart is TWO points.
-tier_health_boosts = [0, 2, 4, 6, 8]
+tier_health_boosts = [0, 0, 0, 0, 0]
 #How much brimstone is each heart worth?
 #Range: 1 ~ 20000
 brimstonePerHeart = 50
@@ -35,7 +35,7 @@ brimstonePerHeart = 50
 	wardingCandleWhitelist = []
 	#Change this to determine how many of a tier's tasks need to be completed before tiering up is allowed.  It is a percentage of the total tasks in the tier.  If you set this above 1, you cannot tier up through normal gameplay.  Use with caution.
 	#Range: 0.01 ~ 2.0
-	tierCompletePct = 0.8
+	tierCompletePct = 0.6
 	#What the mod considers 'melee distance' between two entities when one attacks the other.  This value is squared, so if you want 8 blocks put 64 in this config.
 	#Range: 1.0 ~ 4096.0
 	meleeDistance = 64.0
@@ -51,9 +51,9 @@ brimstonePerHeart = 50
 	#Range: 1 ~ 1000
 	phylacteryKills = 50
 	#Can bosses be summoned?
-	bossSummons = false
+	bossSummons = true
 	#Can bosses be captured in phylacteries?
-	bossPhylacteries = false
+	bossPhylacteries = true
 	#Should summons be able to be right clicked with items to interact?  For example, shearing sheep or milking cows that have been summoned.
 	summonInteractions = true
 	#If true, the Ritual of Arcana will instantly rote spells upon completion, in addition to giving you the spell..
@@ -67,17 +67,17 @@ brimstonePerHeart = 50
 	spellDamageMultiplier = 1.0
 	#How much XP should it cost to undo a mistake when runescribing?  Regardless of this value, it will always consume clay.
 	#Range: 0 ~ 9999
-	runescribeUndoXP = 100
+	runescribeUndoXP = 50
 	#How many sigils should be allowed per player?
 	#Range: 1 ~ 100
-	sigilsLimit = 5
+	sigilsLimit = 6
 	#What permission level should rituals run commands at?  The commands must be defined in the recipes.
 	#Range: 0 ~ 4
 	ritualPermissionLevel = 2
 	#Should confuse affect players?  It will invert their controls.
 	confuseAffectsPlayers = true
 	#Should the splash component create permanent water sources?  If false the sources it creates will be temporary.
-	splashCreatesSources = false
+	splashCreatesSources = true
 	#Maximum RTP distance for RTP portals.
 	#Range: > 100
 	rtpRange = 5000

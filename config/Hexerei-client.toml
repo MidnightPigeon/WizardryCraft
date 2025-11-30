@@ -1,5 +1,5 @@
 #Dynamic light toggle
-dynamic_light_toggle = false
+dynamic_light_toggle = true
 #Light level an entity should emit when dynamic lights are on
 #Example entry: minecraft:blaze=15
 entity_lights = ["minecraft:blaze=10", "minecraft:magma_cube=8", "minecraft:spectral_arrow=8"]

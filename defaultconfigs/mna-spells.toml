@@ -27,7 +27,7 @@ spellBiomeBlacklist = []
 		minimum = 0.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 3.0
+		maximum = 5.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 0.0
@@ -47,19 +47,19 @@ spellBiomeBlacklist = []
 	["mna:shapes/bolt".RANGE]
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
-		minimum = 16.0
+		minimum = 20.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 48.0
+		maximum = 60.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
-		default = 16.0
+		default = 20.0
 		#Step Value (how much does one click in the inscription table change the value)
 		#Range: 0.0 ~ 9999.0
-		step = 1.0
+		step = 2.0
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 1.0
+		step_complexity = 2.0
 
 ["mna:shapes/self"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in.
@@ -79,16 +79,16 @@ spellBiomeBlacklist = []
 		minimum = 0.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 3.0
+		maximum = 6.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 0.0
 		#Step Value (how much does one click in the inscription table change the value)
 		#Range: 0.0 ~ 9999.0
-		step = 1.0
+		step = 2.0
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 1.0
+		step_complexity = 2.0
 
 	["mna:shapes/projectile".SPEED]
 		#Minimum Value

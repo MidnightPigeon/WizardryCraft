@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
             "switch_slots": true
         })
     }
-    //铸造符文（其实铸造别的也行）
+    //基于模具的铸造
     function TableCasting(fluid, result, cast, fluid_amount) {
         event.custom({
             "type": "tconstruct:casting_table",
