@@ -216,7 +216,7 @@
   "modifier.constructs_casting.imbued": "可注入",
   "modifier.constructs_casting.imbued.description": "允许将法术注入到工具中。剑除外，因为它们已经有这个功能了。",
   "modifier.constructs_casting.imbued.flavor": "灌注魔法！",
-  "modifier.constructs_casting.improvable": "可改进",
+  "modifier.constructs_casting.improvable": "亲和开放",
   "modifier.constructs_casting.improvable.description": "为工具添加两个额外的亲和力槽位。",
   "modifier.constructs_casting.improvable.flavor": "升级是好的。但它们可以变得更好。",
   "modifier.constructs_casting.lightning_dispulsion": "雷霆抗性",

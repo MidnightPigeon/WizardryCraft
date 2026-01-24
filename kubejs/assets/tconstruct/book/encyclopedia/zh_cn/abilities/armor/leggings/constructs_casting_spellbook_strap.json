@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:spellbook_strap",
+  "text": [
+    {
+      "text": "与护腿互动可以让你在护腿的物品栏中交换你的法术书。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "最高1级",
+    "需要1个能力槽"
+  ]
+}

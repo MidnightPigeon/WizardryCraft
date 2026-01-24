@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:ringbearer",
+  "text": [
+    {
+      "text": "允许你佩戴两个额外的戒指。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "最高1级",
+    "需要1个能力槽"
+  ]
+}
