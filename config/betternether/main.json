@@ -11,5 +11,8 @@
   "respawn_statue": {
     "respawn_item [default: minecraft:glowstone]": "minecraft:glowstone",
     "item_count [default: 4]": 4
+  },
+  "particles": {
+    "weeping [default: true]": true
   }
 }

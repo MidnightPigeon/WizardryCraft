@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    //移除匠魂铁锭配方并补回
+    //移除匠魂tag铁锭配方并补回原版铁锭
     event.remove({id:'tconstruct:smeltery/melting/metal/iron/ingot'});
     tconstruct.melting(Fluid.of('tconstruct:molten_iron', 90), 'minecraft:iron_ingot').temperature(800).time(300);
 
