@@ -110,7 +110,7 @@
   "material.constructs_casting.mithril.flavor": "莫里亚的骄傲",
   "material.constructs_casting.mithril.ranged": "造成伤害时有25%几率（每级额外增加25%）恢复法力值（恢复量与造成的伤害成正比）。",
   "material.constructs_casting.pyrium": "炽金",
-  "material.constructs_casting.pyrium.encyclopedia": "暴击有50%几率（每增加一级额外增加25%）对目标施加一层燃烧；当目标达到三层燃烧时会引发火焰爆炸。",
+  "material.constructs_casting.pyrium.encyclopedia": "造成伤害有50%几率（每增加一级额外增加25%）对目标施加一层燃烧；当目标达到三层燃烧时会引发火焰爆炸。",
   "material.constructs_casting.pyrium.flavor": "泰洛斯的内源之力！",
   "material.constructs_casting.pyrium.ranged": "命中射击有50%几率（每增加一级额外增加25%）对目标施加一层燃烧；当目标达到三层燃烧时会引发火焰爆炸。",
   "material.constructs_casting.echo_shard": "回响碎片",
