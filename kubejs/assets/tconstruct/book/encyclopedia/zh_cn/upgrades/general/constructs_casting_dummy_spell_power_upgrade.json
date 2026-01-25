@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:dummy_spell_power_upgrade",
+  "text": [
+    {
+      "text": "提升5%特定系别的法术强度（根据使用的符文或法球）。 可以被附着到任何非一次性工具/盔甲上。"
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "前3级需要1个升级球或16个符文，消耗升级槽位",
+    "后2级需要1个升级球和2个符文，消耗亲和槽位"
+  ]
+}

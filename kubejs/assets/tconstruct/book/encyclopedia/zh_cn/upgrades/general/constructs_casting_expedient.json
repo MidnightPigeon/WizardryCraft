@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:expedient",
+  "text": [
+    {
+      "text": "每级减少10%法术吟唱时间，减少瞬发法术的充能时间并允许持续法术施放更长时间。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "最高3级",
+    "每级需要1个升级槽位"
+  ]
+}

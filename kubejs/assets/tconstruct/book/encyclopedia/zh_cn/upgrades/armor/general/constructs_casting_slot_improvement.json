@@ -1,0 +1,14 @@
+{
+  "modifier_id": "constructs_casting:slot_improvement",
+  "text": [
+    {
+      "text": "增加1个法术槽位。允许法术书承载更多的法术。将法术书放入饰品区以重载法术槽位。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "最高6级",
+    "法术槽位数量不能超过15",
+    "每级需要1个升级槽位"
+  ]
+}

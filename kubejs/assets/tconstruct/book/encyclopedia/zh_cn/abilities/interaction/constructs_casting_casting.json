@@ -1,8 +1,8 @@
 {
-  "modifier_id": "constructs_casting:ringbearer",
+  "modifier_id": "constructs_casting:casting",
   "text": [
     {
-      "text": "允许你额外穿戴两个戒指。"
+      "text": "允许你使用工具右键施法。"
     }
   ],
   "more_text_space": true,

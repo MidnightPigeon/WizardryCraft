@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:cooldown_upgrade",
+  "text": [
+    {
+      "text": "每级降低5%法术施放冷却时间。使法术能被更频繁的使用。"
+    }
+  ],
+  "more_text_space": false,
+  "effects": [
+    "前3级需要1个升级球或16个符文，消耗升级槽位",
+    "后2级需要1个升级球和2个符文，消耗亲和槽位"
+  ]
+}

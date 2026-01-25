@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:spell_protection",
+  "text": [
+    {
+      "text": "每级获得10%法术伤害减免 (不同于魔法伤害). 在整套装备中最多为80%，或8级。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "等级可递进启用",
+    "每级需要1个防御槽位"
+  ]
+}

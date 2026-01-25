@@ -1,0 +1,13 @@
+{
+  "modifier_id": "constructs_casting:reinscribed",
+  "text": [
+    {
+      "text": "获得1个升级槽位。"
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "一次性使用",
+    "无槽位"
+  ]
+}

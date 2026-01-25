@@ -181,7 +181,7 @@
   "modifier.constructs_casting.evocation_upgrade.description": "获得+5%唤魔法术强度。",
   "modifier.constructs_casting.evocation_upgrade.flavor": "*唤魔者嘟囔声*",
   "modifier.constructs_casting.expedient": "快速施法",
-  "modifier.constructs_casting.expedient.description": "减少10%的施法时间。",
+  "modifier.constructs_casting.expedient.description": "减少10%的施法吟唱时间。",
   "modifier.constructs_casting.expedient.flavor": "匆匆忙忙？",
   "modifier.constructs_casting.fire_dispulsion": "烈焰抗性",
   "modifier.constructs_casting.fire_dispulsion.description": "获得+15%烈焰法术抗性。",
