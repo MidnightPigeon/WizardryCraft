@@ -122,7 +122,7 @@
 			}]
 			title: "魔法的秘密"
 			x: 0.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
@@ -140,11 +140,15 @@
 				type: "item"
 			}]
 			title: "失落的历史"
-			x: -2.5d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
+			description: [
+				"背包从实际来说大概是冒险必备物品。"
+				"不过显然，只有第一个是免费的。"
+			]
 			id: "3A67EC267D698DAC"
 			rewards: [{
 				id: "777D917FA75C615B"
@@ -159,7 +163,7 @@
 			}]
 			title: "背上行囊，走向远方"
 			x: 0.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
@@ -183,9 +187,9 @@
 				}
 				type: "item"
 			}]
-			title: "神秘的巫术"
-			x: 2.5d
-			y: 0.0d
+			title: "神秘巫术"
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
@@ -199,7 +203,7 @@
 			}]
 			title: "次级法术"
 			x: -2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["343DD0B9C95DCD48"]
@@ -212,7 +216,7 @@
 			}]
 			title: "……体力活？"
 			x: 2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Start of your way"]
