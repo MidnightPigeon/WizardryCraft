@@ -20,7 +20,7 @@
 	[UI.ManaBar]
 		#By default (Contextual), the mana bar only appears when you are holding a magic item or are not at max mana.
 		#Allowed Values: Never, Always, Contextual
-		manaBarDisplay = "Contextual"
+		manaBarDisplay = "Never"
 		#Used to adjust mana bar's position (11 is one full hunger bar up).
 		manaBarXOffset = 0
 		manaBarYOffset = 0
