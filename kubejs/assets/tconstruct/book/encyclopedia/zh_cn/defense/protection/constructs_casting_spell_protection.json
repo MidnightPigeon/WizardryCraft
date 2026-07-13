@@ -2,7 +2,7 @@
   "modifier_id": "constructs_casting:spell_protection",
   "text": [
     {
-      "text": "每级获得10%法术伤害减免 (不同于魔法伤害). 在整套装备中最多为80%，或8级。"
+      "text": "每级提高 10% 法术伤害减免（不同于魔法伤害）。整套装备中最多为 80%，或 8 级。"
     }
   ],
   "more_text_space": true,

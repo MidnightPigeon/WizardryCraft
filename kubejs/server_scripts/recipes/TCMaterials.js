@@ -53,4 +53,17 @@ ServerEvents.recipes(event => {
     MaterialMelting("kubejs:transmuted_silver","kubejs:liquid_transmuted_silver",90,500)
     OverandReduce("mna:decoration/transmuted_silver_block","mna:transmuted_silver","kubejs:transmuted_silver",9)
 
+    // 温特姆保持 craftable=false；这些材料配方只用于宝典代表物品和材料识别，部件仍需流体铸造。
+    event.custom({
+        "type": "tconstruct:material",
+        "ingredient": {
+            "item": "mna:vinteum_ingot"
+        },
+        "material": "kubejs:vinteum",
+        "needed": 1,
+        "value": 1
+    })
+    MaterialMelting("kubejs:vinteum","kubejs:liquid_vinteum",90,500)
+    OverandReduce("mna:vinteum_block","mna:vinteum_ingot","kubejs:vinteum",9)
+
 })

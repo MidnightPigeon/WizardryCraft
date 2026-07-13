@@ -54,5 +54,6 @@
       "y [default: 65]": 65,
       "z [default: 0]": 0
     }
-  }
+  },
+  "blockLionfishAPI [default: true]": true
 }

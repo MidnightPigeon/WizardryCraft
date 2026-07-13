@@ -1,0 +1,12 @@
+{
+  "nether_city [default: true]": true,
+  "pyramid [default: true]": true,
+  "ghast_hive [default: true]": true,
+  "spawn_altar_ladder [default: true]": true,
+  "respawn_points [default: true]": true,
+  "pillars [default: true]": true,
+  "gardens [default: true]": true,
+  "portals [default: true]": true,
+  "altars [default: true]": true,
+  "jungle_temples [default: true]": true
+}

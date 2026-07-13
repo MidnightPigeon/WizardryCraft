@@ -51,12 +51,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "cobblemonintegrations": {
-    "healer": true,
-    "apricorn": true,
-    "fossil_analyzer": true,
-    "pokemon_entity": true,
-    "berry_bush": true
+  "betternether": {
+    "plant_growth": true
   },
   "jade": {
     "coordinates.rel": false,

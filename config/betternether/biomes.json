@@ -135,5 +135,73 @@
         }
       }
     }
+  },
+  "betternether": {
+    "bone_reef": {
+      "enabled [default: true]": true
+    },
+    "crimson_glowing_woods": {
+      "enabled [default: true]": true
+    },
+    "crimson_pinewood": {
+      "enabled [default: true]": true
+    },
+    "flooded_deltas": {
+      "enabled [default: true]": true
+    },
+    "gravel_desert": {
+      "enabled [default: true]": true
+    },
+    "magma_land": {
+      "enabled [default: true]": true
+    },
+    "nether_grasslands": {
+      "enabled [default: true]": true
+    },
+    "nether_jungle": {
+      "enabled [default: true]": true
+    },
+    "nether_mushroom_forest": {
+      "enabled [default: true]": true
+    },
+    "nether_mushroom_forest_edge": {
+      "enabled [default: true]": true
+    },
+    "nether_swampland": {
+      "enabled [default: true]": true
+    },
+    "nether_swampland_terraces": {
+      "enabled [default: true]": true
+    },
+    "old_fungiwoods": {
+      "enabled [default: true]": true
+    },
+    "old_swampland": {
+      "enabled [default: true]": true
+    },
+    "old_warped_woods": {
+      "enabled [default: true]": true
+    },
+    "poor_nether_grasslands": {
+      "enabled [default: true]": true
+    },
+    "soul_plain": {
+      "enabled [default: true]": true
+    },
+    "sulfuric_bone_reef": {
+      "enabled [default: true]": true
+    },
+    "upside_down_forest": {
+      "enabled [default: true]": true
+    },
+    "upside_down_forest_cleared": {
+      "enabled [default: true]": true
+    },
+    "wart_forest": {
+      "enabled [default: true]": true
+    },
+    "wart_forest_edge": {
+      "enabled [default: true]": true
+    }
   }
 }

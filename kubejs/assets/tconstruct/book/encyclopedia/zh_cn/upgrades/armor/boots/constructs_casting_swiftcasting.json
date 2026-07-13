@@ -2,7 +2,7 @@
   "modifier_id": "constructs_casting:swiftcasting",
   "text": [
     {
-      "text": "允许施法者在施法过程中以40%的速度移动（每级增加20%）。"
+      "text": "允许施法者在施法过程中以 40% 的速度移动（每级再提高 20%）。"
     }
   ],
   "more_text_space": true,

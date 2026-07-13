@@ -16,6 +16,9 @@ const PlayerTickEvent = Java.loadClass('net.minecraftforge.event.TickEvent$Playe
 const PlayerLoggedInEvent = Java.loadClass('net.minecraftforge.event.entity.player.PlayerEvent$PlayerLoggedInEvent')
 
 const MnaPlayerMagicProvider = Java.loadClass('com.mna.capabilities.playerdata.magic.PlayerMagicProvider')
+const MnaServerMessageDispatcher = Java.loadClass('com.mna.network.ServerMessageDispatcher')
+const MnaCastingResourceIDs = Java.loadClass('com.mna.api.capabilities.resource.CastingResourceIDs')
+const MnaGeneralConfigValues = Java.loadClass('com.mna.api.config.GeneralConfigValues')
 
 const MANA_BRIDGE_MAX_KEY = 'mc_magic:irons_spellbooks_max_mana'
 const MANA_BRIDGE_REGEN_KEY = 'mc_magic:irons_spellbooks_mana_regen'
@@ -45,6 +48,15 @@ function forceMnaResourceSync(player) {
   const magic = getPlayerMagic(player)
   if (magic != null) {
     magic.forceSync(MNA_SYNC_CASTING_RESOURCE)
+    MnaServerMessageDispatcher.sendMagicSyncMessage(player)
+  }
+}
+
+function isCreativePlayer(player) {
+  try {
+    return player.isCreative()
+  } catch (ignored) {
+    return player.m_7500_()
   }
 }
 
@@ -77,8 +89,46 @@ function syncMnaModifiers(player, resource) {
   resource.addModifier(MANA_BRIDGE_MAX_KEY, maxBonus)
 
   const ironRegen = getAttributeValue(player, IronAttributes.MANA_REGEN)
-  const regenBonus = Math.max(0, ironRegen - MNA_BASE_REGEN_MULTIPLIER)
-  resource.addRegenerationModifier(MANA_BRIDGE_REGEN_KEY, regenBonus)
+  if (ironRegen > MNA_BASE_REGEN_MULTIPLIER) {
+    resource.addRegenerationModifier(MANA_BRIDGE_REGEN_KEY, (MNA_BASE_REGEN_MULTIPLIER / ironRegen) - 1)
+  } else {
+    resource.removeRegenerationModifier(MANA_BRIDGE_REGEN_KEY)
+  }
+}
+
+function isSleepingPlayer(player) {
+  try {
+    return player.isSleeping()
+  } catch (ignored) {
+    return player.m_5803_()
+  }
+}
+
+function isSoulsResource(resource) {
+  return resource != null && resource.getRegistryName().equals(MnaCastingResourceIDs.SOULS)
+}
+
+function isColdDarkResting(player) {
+  return isSleepingPlayer(player) || player.getPersistentData().contains('coldDarkPos')
+}
+
+function getIronManaRegenMultiplier(player) {
+  return Math.max(MNA_BASE_REGEN_MULTIPLIER, getAttributeValue(player, IronAttributes.MANA_REGEN))
+}
+
+function restoreSoulsWhileResting(player, resource) {
+  if (!isSoulsResource(resource) || !isColdDarkResting(player)) {
+    return
+  }
+
+  const ironRegen = getIronManaRegenMultiplier(player)
+  if (ironRegen <= MNA_BASE_REGEN_MULTIPLIER || resource.getAmount() >= resource.getMaxAmount()) {
+    return
+  }
+
+  const rate = Math.max(1, MnaGeneralConfigValues.TotalManaRegenTicks * (MNA_BASE_REGEN_MULTIPLIER / ironRegen))
+  resource.restore(resource.getMaxAmount() / rate)
+  resource.setNeedsSync()
 }
 
 function syncPlayerManaSystems(player) {
@@ -98,6 +148,7 @@ function syncPlayerManaSystems(player) {
   }
 
   syncMnaModifiers(player, resource)
+  restoreSoulsWhileResting(player, resource)
   syncIronMana(player, resource)
 }
 
@@ -154,13 +205,18 @@ MinecraftForge.EVENT_BUS.addListener(
 
       if (delta < 0) {
         const cost = -delta
+        if (isCreativePlayer(player)) {
+          event.setNewMana(resource.getAmount())
+          return
+        }
+
         if (!resource.hasEnough(player, cost)) {
           event.setCanceled(true)
           syncIronMana(player, resource)
           return
         }
 
-        resource.consume(player, cost)
+        resource.setAmount(resource.getAmount() - cost)
       } else {
         resource.restore(delta)
       }
@@ -209,12 +265,18 @@ MinecraftForge.EVENT_BUS.addListener(
 
       const cost = event.getManaCost()
       if (cost > 0) {
+        if (isCreativePlayer(player)) {
+          event.setManaCost(0)
+          syncIronMana(player, resource)
+          return
+        }
+
         if (!resource.hasEnough(player, cost)) {
           syncIronMana(player, resource)
           return
         }
 
-        resource.consume(player, cost)
+        resource.setAmount(resource.getAmount() - cost)
         resource.setNeedsSync()
         forceMnaResourceSync(player)
       }

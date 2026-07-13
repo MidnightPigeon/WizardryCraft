@@ -1,3 +1,24 @@
 {
-    
+  "material.kubejs.transmuted_silver": "Transmuted Silver",
+  "material.kubejs.transmuted_silver.flavor": "Magic changes life!",
+  "material.kubejs.transmuted_silver.encyclopedia": "Gain +10 max mana per level.",
+  "material.kubejs.transmuted_silver.magic": "Gain +10 max mana per level.",
+  "material.kubejs.transmuted_silver.ranged": "Gain +10 max mana per level.",
+  "material.kubejs.transmuted_silver.armor": "Gain +10 max mana per level.",
+  "material.kubejs.vinteum": "Vinteum",
+  "material.kubejs.vinteum.flavor": "Let mana flow!",
+  "material.kubejs.vinteum.encyclopedia": "Increases mana regeneration speed by 5% per level.",
+  "material.kubejs.vinteum.magic": "Increases mana regeneration speed by 5% per level.",
+  "material.kubejs.vinteum.ranged": "Increases mana regeneration speed by 5% per level.",
+  "material.kubejs.vinteum.armor": "Increases mana regeneration speed by 5% per level.",
+  "modifier.kubejs.magical": "Energy Affinity",
+  "modifier.kubejs.magical.description": "Gain +10 mana per level.",
+  "modifier.kubejs.magical.flavor": "A fine mana conductor!",
+  "modifier.kubejs.vinteum_regrowth": "Mana Regrowth",
+  "modifier.kubejs.vinteum_regrowth.description": "Increases mana regeneration speed by 5% per level.",
+  "modifier.kubejs.vinteum_regrowth.flavor": "Let mana flow!",
+  "book.tconstruct.encyclopedia.materials_magic": "Magic Materials",
+  "book.tconstruct.encyclopedia.materials_magic.subtext": "Materials for spellbooks, wands, and magical adornments.",
+  "materials_magic": "Magic Materials",
+  "materials_magic.subtext": "Materials for spellbooks, wands, and magical adornments."
 }

@@ -1,0 +1,10 @@
+{
+  "giant_mossy_glowshroom [default: true]": true,
+  "megalake [default: true]": true,
+  "megalake_small [default: true]": true,
+  "mountain [default: true]": true,
+  "painted_mountain [default: true]": true,
+  "eternal_portal [default: true]": true,
+  "giant_ice_star [default: true]": true,
+  "end_village [default: true]": true
+}

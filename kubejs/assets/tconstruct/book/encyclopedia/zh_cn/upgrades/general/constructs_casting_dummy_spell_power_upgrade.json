@@ -2,7 +2,7 @@
   "modifier_id": "constructs_casting:dummy_spell_power_upgrade",
   "text": [
     {
-      "text": "提升5%特定系别的法术强度（根据使用的符文或法球）。 可以被附着到任何非一次性工具/盔甲上。"
+      "text": "特定系别的法术强度提高 5%（根据使用的符文或法球）。可以被附着到任何非一次性工具/盔甲上。"
     }
   ],
   "more_text_space": false,
