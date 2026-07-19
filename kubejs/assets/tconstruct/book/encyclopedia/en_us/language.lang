@@ -67,6 +67,3 @@ abilities.group_armor.shield=Shield
 
 fluid_effects=Fluid Effects
 fluid_effects.subtext=Fluid effects define the behavior when a fluid hits a block or entity through various modifiers such as spitting, spilling, and splashing.
-
-materials_magic=Magic Materials
-materials_magic.subtext=Materials used for creating spellbooks, wands, and magical adornments.

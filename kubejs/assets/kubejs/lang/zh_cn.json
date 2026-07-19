@@ -64,21 +64,16 @@
     "material.kubejs.transmuted_silver.armor": "每级增加 10 最大法力。",
     "material.kubejs.vinteum": "温特姆",
     "material.kubejs.vinteum.flavor": "让法力流动起来！",
-    "material.kubejs.vinteum.encyclopedia": "每级提高 5% 法力恢复速度。",
-    "material.kubejs.vinteum.magic": "每级提高 5% 法力恢复速度。",
-    "material.kubejs.vinteum.ranged": "每级提高 5% 法力恢复速度。",
-    "material.kubejs.vinteum.armor": "每级提高 5% 法力恢复速度。",
+    "material.kubejs.vinteum.encyclopedia": "每级提高 10% 法力恢复速度。",
+    "material.kubejs.vinteum.magic": "每级提高 10% 法力恢复速度。",
+    "material.kubejs.vinteum.ranged": "每级提高 10% 法力恢复速度。",
+    "material.kubejs.vinteum.armor": "每级提高 10% 法力恢复速度。",
 
     "modifier.kubejs.magical":"能量亲和",
     "modifier.kubejs.magical.description": "每级获得+10法力值。",
     "modifier.kubejs.magical.flavor": "优质魔力导体！",
     "modifier.kubejs.vinteum_regrowth": "法力回流",
-    "modifier.kubejs.vinteum_regrowth.description": "每级提高 5% 法力恢复速度。",
-    "modifier.kubejs.vinteum_regrowth.flavor": "让法力流动起来！",
-
-    "book.tconstruct.encyclopedia.materials_magic": "魔力材料",
-    "book.tconstruct.encyclopedia.materials_magic.subtext": "适用于法术书、法杖和魔法饰件的材料。",
-    "materials_magic": "魔力材料",
-    "materials_magic.subtext": "适用于法术书、法杖和魔法饰件的材料。"
+    "modifier.kubejs.vinteum_regrowth.description": "每级提高 10% 法力恢复速度。",
+    "modifier.kubejs.vinteum_regrowth.flavor": "让法力流动起来！"
 
 }

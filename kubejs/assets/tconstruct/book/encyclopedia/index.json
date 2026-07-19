@@ -64,18 +64,6 @@
     }
   },
   {
-    "name": "materials_magic",
-    "data": "no-load",
-    "extraData": { "tconstruct:material_tier": { "type": "constructs_casting:magic_material", "detailed": true }},
-    "icon": {
-      "item": {
-        "type": "forge:nbt",
-        "item": "constructs_casting:pages",
-        "nbt": { "Material": "constructs_casting:arcane_cloth" }
-      }
-    }
-  },
-  {
     "name": "armor",
     "data": "sections/armor.json",
     "icon": {

@@ -67,5 +67,3 @@ abilities.group_armor.shield=盾牌能力
 
 fluid_effects=流体效果
 fluid_effects.subtext=流体效果定义了流体通过喷洒、喷溅、飞溅强化击中物品或实体时的不同效果。
-materials_magic=魔力材料
-materials_magic.subtext=用于制作法术书、法杖和魔法饰件的材料。

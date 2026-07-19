@@ -1,20 +1,5 @@
 {
   "level_display": "tconstruct:default",
-  "modules": [
-    {
-      "type": "tconstruct:attribute",
-      "attribute": "irons_spellbooks:mana_regen",
-      "each_level": 0.05,
-      "operation": "multiply_base",
-      "slots": [
-        "mainhand",
-        "offhand",
-        "feet",
-        "legs",
-        "chest",
-        "head"
-      ]
-    }
-  ],
+  "modules": [],
   "tooltip_display": "always"
 }

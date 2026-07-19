@@ -20,8 +20,7 @@
       "tconstruct:plating_shield",
       "tconstruct:maille",
       "tconstruct:armor_maille",
-      "tconstruct:skull",
-      "constructs_casting:adornment"
+      "tconstruct:skull"
     ],
     "transformer": {
       "type": "tconstruct:recolor_sprite",
