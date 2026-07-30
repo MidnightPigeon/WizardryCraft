@@ -1,0 +1,47 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/staff",
+  "textures": {
+    "handle": "tinkers_mna:item/tool/staff/handle",
+    "grip": "tinkers_mna:item/tool/staff/grip",
+    "head": "tinkers_mna:item/tool/staff/head",
+    "large_handle": "tinkers_mna:item/tool/staff/large/handle",
+    "large_grip": "tinkers_mna:item/tool/staff/large/grip",
+    "large_head": "tinkers_mna:item/tool/staff/large/head"
+  },
+  "large": true,
+  "modifier_roots": {
+    "small": [
+      "tconstruct:item/tool/staff/modifiers/"
+    ],
+    "large": [
+      "tconstruct:item/tool/staff/large_modifiers/"
+    ]
+  },
+  "first_modifiers": [
+    "tconstruct:dyed",
+    "tconstruct:embellishment"
+  ],
+  "parts": [
+    {
+      "name": "handle",
+      "index": 0
+    },
+    {
+      "name": "grip",
+      "index": 1
+    },
+    {
+      "name": "head",
+      "index": 2
+    }
+  ],
+  "overrides": [
+    {
+      "predicate": {
+        "tconstruct:broken": 1
+      },
+      "model": "tinkers_mna:item/tool/staff/hollow/broken"
+    }
+  ]
+}

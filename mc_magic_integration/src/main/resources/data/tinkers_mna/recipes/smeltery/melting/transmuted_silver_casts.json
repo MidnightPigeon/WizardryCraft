@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "result": {
+    "amount": 90,
+    "fluid": "tinkers_mna:liquid_transmuted_silver"
+  },
+  "ingredient": {
+    "tag": "tconstruct:casts/runes"
+  },
+  "temperature": 500,
+  "time": 40
+}

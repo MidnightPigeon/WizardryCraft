@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tinkers_mna"
+version="0.1.0"
+displayName="Tinker's MNA"
+description='''
+Tinkers' Construct integration for Mana and Artifice.
+'''
+
+[[dependencies.tinkers_mna]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tinkers_mna]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tinkers_mna]]
+modId="tconstruct"
+mandatory=true
+versionRange="[3.11.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tinkers_mna]]
+modId="mna"
+mandatory=true
+versionRange="[3.1.0,)"
+ordering="AFTER"
+side="BOTH"

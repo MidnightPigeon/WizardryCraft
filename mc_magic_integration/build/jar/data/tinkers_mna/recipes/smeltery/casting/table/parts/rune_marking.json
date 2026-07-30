@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tinkers_mna:marking_rune_cast"
+  },
+  "cast_consumed": false,
+  "cooling_time": 40,
+  "fluid": {
+    "amount": 20,
+    "fluid": "tinkers_mna:liquid_vinteum"
+  },
+  "result": {
+    "item": "mna:rune_marking"
+  }
+}

@@ -6,7 +6,6 @@ ServerEvents.tags("item", (event) => {
     event.add("tconstruct:anvil_metal",'betterend:thallasium_block')
     event.add("tconstruct:anvil_metal",'betterend:aeternium_block')
     event.add("tconstruct:anvil_metal",'betterend:terminite_block')
-    event.add("tconstruct:anvil_metal",'mna:vinteum_block')
 
 })
 
@@ -18,7 +17,6 @@ ServerEvents.tags("block", (event) => {
     event.add("tconstruct:anvil_metal",'betterend:thallasium_block')
     event.add("tconstruct:anvil_metal",'betterend:aeternium_block')
     event.add("tconstruct:anvil_metal",'betterend:terminite_block')
-    event.add("tconstruct:anvil_metal",'mna:vinteum_block')
 
 })
 

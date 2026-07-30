@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 90,
+    "fluid": "tinkers_mna:liquid_transmuted_silver"
+  },
+  "output": "tinkers_mna:transmuted_silver",
+  "temperature": 500
+}

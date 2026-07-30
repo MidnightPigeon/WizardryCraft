@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "mna:rune_ender"
+  },
+  "cast_consumed": true,
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 90,
+    "fluid": "tinkers_mna:liquid_transmuted_silver"
+  },
+  "result": {
+    "item": "tinkers_mna:ender_rune_cast"
+  }
+}

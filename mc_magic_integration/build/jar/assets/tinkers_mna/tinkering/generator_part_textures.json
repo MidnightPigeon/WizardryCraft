@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "parts": [
+    {
+      "path": "tinkers_mna:item/tool/staff/handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/grip",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/head",
+      "stat_type": "tconstruct:small_blade"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/grip",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/head",
+      "stat_type": "tconstruct:small_blade"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/handle_broken",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/grip_broken",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/head_broken",
+      "stat_type": "tconstruct:small_blade"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/handle_broken",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/grip_broken",
+      "stat_type": "tconstruct:grip"
+    },
+    {
+      "path": "tinkers_mna:item/tool/staff/large/head_broken",
+      "stat_type": "tconstruct:small_blade"
+    }
+  ]
+}

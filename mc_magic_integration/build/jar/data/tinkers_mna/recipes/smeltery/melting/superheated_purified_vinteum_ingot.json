@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "result": {
+    "amount": 90,
+    "fluid": "tinkers_mna:liquid_superheated_purified_vinteum"
+  },
+  "ingredient": {
+    "item": "mna:superheated_purified_vinteum_ingot"
+  },
+  "temperature": 1500,
+  "time": 80
+}

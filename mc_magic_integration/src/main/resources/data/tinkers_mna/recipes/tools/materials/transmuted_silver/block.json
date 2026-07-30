@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "mna:decoration/transmuted_silver_block"
+  },
+  "material": "tinkers_mna:transmuted_silver",
+  "needed": 1,
+  "value": 9
+}

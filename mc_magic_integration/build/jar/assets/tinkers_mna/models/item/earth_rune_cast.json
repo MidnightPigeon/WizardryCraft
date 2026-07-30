@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "tinkers_mna:item/earth_rune_cast"
+  },
+  "parent": "minecraft:item/generated"
+}

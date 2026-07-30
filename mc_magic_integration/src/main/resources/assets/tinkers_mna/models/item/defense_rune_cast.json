@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "tinkers_mna:item/defense_rune_cast"
+  },
+  "parent": "minecraft:item/generated"
+}
