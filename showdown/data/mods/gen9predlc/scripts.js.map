@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen9predlc/scripts.ts"],
-  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\r\n\tgen: 9,\r\n\tinherit: 'gen9dlc1',\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,KAAK;AAAA,EACL,SAAS;AACV;",
-  "names": []
-}

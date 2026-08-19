@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen8bdsp/abilities.ts"],
-  "sourcesContent": ["export const Abilities: {[k: string]: ModdedAbilityData} = {\r\n\tasoneglastrier: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tasonespectrier: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tchillingneigh: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tcuriousmedicine: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tdragonsmaw: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tgrimneigh: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tquickdraw: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\ttransistor: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n\tunseenfist: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Past\",\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAA8C;AAAA,EAC1D,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../sim/bag-items.ts"],
-  "sourcesContent": ["import {Pokemon} from \"./pokemon\";\r\n\r\nexport interface BagItem {\r\n\tuse: (battle: Battle, pokemon: Pokemon, itemId: string, data: string[]) => void;\r\n};\r\n\r\nconst bagItems = new Map<string, BagItem>();\r\n\r\nexport function set(itemId, bagItem) {\r\n\tbagItems.set(itemId, bagItem);\r\n};\r\n\r\nexport function getItem(itemId) {\r\n\treturn bagItems.get(itemId);\r\n};\r\n\r\nexport function has(itemId) {\r\n\treturn bagItems.has(itemId);\r\n}\r\n\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAIC;AAED,MAAM,WAAW,oBAAI,IAAqB;AAEnC,SAAS,IAAI,QAAQ,SAAS;AACpC,WAAS,IAAI,QAAQ,OAAO;AAC7B;AAAC;AAEM,SAAS,QAAQ,QAAQ;AAC/B,SAAO,SAAS,IAAI,MAAM;AAC3B;AAAC;AAEM,SAAS,IAAI,QAAQ;AAC3B,SAAO,SAAS,IAAI,MAAM;AAC3B;",
-  "names": []
-}

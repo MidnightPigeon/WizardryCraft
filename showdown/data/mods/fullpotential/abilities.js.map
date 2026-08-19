@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/fullpotential/abilities.ts"],
-  "sourcesContent": ["export const Abilities: {[k: string]: ModdedAbilityData} = {\r\n\tunaware: {\r\n\t\tinherit: true,\r\n\t\tonAnyModifyBoost(boosts, pokemon) {\r\n\t\t\tconst unawareUser = this.effectState.target;\r\n\t\t\tif (unawareUser === pokemon) return;\r\n\t\t\tif (unawareUser === this.activePokemon && pokemon === this.activeTarget) {\r\n\t\t\t\tboosts['def'] = 0;\r\n\t\t\t\tboosts['spd'] = 0;\r\n\t\t\t\tboosts['evasion'] = 0;\r\n\t\t\t}\r\n\t\t\tif (pokemon === this.activePokemon && unawareUser === this.activeTarget) {\r\n\t\t\t\tboosts['atk'] = 0;\r\n\t\t\t\tboosts['def'] = 0;\r\n\t\t\t\tboosts['spa'] = 0;\r\n\t\t\t\tboosts['spd'] = 0;\r\n\t\t\t\tboosts['spe'] = 0;\r\n\t\t\t\tboosts['accuracy'] = 0;\r\n\t\t\t}\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAA8C;AAAA,EAC1D,SAAS;AAAA,IACR,SAAS;AAAA,IACT,iBAAiB,QAAQ,SAAS;AACjC,YAAM,cAAc,KAAK,YAAY;AACrC,UAAI,gBAAgB;AAAS;AAC7B,UAAI,gBAAgB,KAAK,iBAAiB,YAAY,KAAK,cAAc;AACxE,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,SAAS,IAAI;AAAA,MACrB;AACA,UAAI,YAAY,KAAK,iBAAiB,gBAAgB,KAAK,cAAc;AACxE,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,UAAU,IAAI;AAAA,MACtB;AAAA,IACD;AAAA,EACD;AACD;",
-  "names": []
-}

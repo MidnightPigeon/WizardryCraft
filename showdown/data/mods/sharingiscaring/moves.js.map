@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/sharingiscaring/moves.ts"],
-  "sourcesContent": ["export const Moves: {[k: string]: ModdedMoveData} = {\r\n\tpoltergeist: {\r\n\t\tinherit: true,\r\n\t\tonTry(source, target) {\r\n\t\t\treturn !!target.item || Object.keys(target.volatiles).some(volatile => volatile.startsWith('item:'));\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,MAAM,QAAQ,QAAQ;AACrB,aAAO,CAAC,CAAC,OAAO,QAAQ,OAAO,KAAK,OAAO,SAAS,EAAE,KAAK,cAAY,SAAS,WAAW,OAAO,CAAC;AAAA,IACpG;AAAA,EACD;AACD;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../sim/cobblemon-cache.ts"],
-  "sourcesContent": ["import { Species } from \"./dex-species\";\r\n\r\nexport const MOD_ID = 'cobblemon';\r\n\r\nconst cobblemonSpecies = new Map<ID, Species>();\r\n\r\nexport function registerSpecies(speciesData: AnyObject): Species {\r\n\tconst species = new Species(speciesData);\r\n\tcobblemonSpecies.set(species.id, species);\r\n\treturn species;\r\n}\r\n\r\nexport function resetSpecies() {\r\n\tcobblemonSpecies.clear();\r\n}\r\n\r\nexport function speciesByID(id: ID): Species | undefined {\r\n\treturn cobblemonSpecies.get(id);\r\n}\r\n\r\nexport function allCache(): Species[] {\r\n\treturn Array.from(cobblemonSpecies.values());\r\n}\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,yBAAwB;AAEjB,MAAM,SAAS;AAEtB,MAAM,mBAAmB,oBAAI,IAAiB;AAEvC,SAAS,gBAAgB,aAAiC;AAChE,QAAM,UAAU,IAAI,2BAAQ,WAAW;AACvC,mBAAiB,IAAI,QAAQ,IAAI,OAAO;AACxC,SAAO;AACR;AAEO,SAAS,eAAe;AAC9B,mBAAiB,MAAM;AACxB;AAEO,SAAS,YAAY,IAA6B;AACxD,SAAO,iBAAiB,IAAI,EAAE;AAC/B;AAEO,SAAS,WAAsB;AACrC,SAAO,MAAM,KAAK,iBAAiB,OAAO,CAAC;AAC5C;",
-  "names": []
-}

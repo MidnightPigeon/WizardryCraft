@@ -1,3 +1,0 @@
-LootJS.modifiers((event) => {
-    
-})

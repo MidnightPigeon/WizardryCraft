@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen2stadium2/items.ts"],
-  "sourcesContent": ["// Gen 2 Stadium fixes Dragon Fang and Dragon Scale having the wrong effects.\r\nexport const Items: {[k: string]: ModdedItemData} = {\r\n\tdragonfang: {\r\n\t\tinherit: true,\r\n\t\tonModifyDamage(damage, source, target, move) {\r\n\t\t\tif (move?.type === 'Dragon') {\r\n\t\t\t\treturn damage * 1.1;\r\n\t\t\t}\r\n\t\t},\r\n\t},\r\n\tdragonscale: {\r\n\t\tinherit: true,\r\n\t\tonModifyDamage() {},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AACO,MAAM,QAAuC;AAAA,EACnD,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe,QAAQ,QAAQ,QAAQ,MAAM;AAC5C,UAAI,MAAM,SAAS,UAAU;AAC5B,eAAO,SAAS;AAAA,MACjB;AAAA,IACD;AAAA,EACD;AAAA,EACA,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,iBAAiB;AAAA,IAAC;AAAA,EACnB;AACD;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen4pt/formats-data.ts"],
-  "sourcesContent": ["export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {\r\n\tpichuspikyeared: {\r\n\t\tisNonstandard: \"Future\",\r\n\t\ttier: \"Illegal\",\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,cAAuD;AAAA,EACnE,iBAAiB;AAAA,IAChB,eAAe;AAAA,IACf,MAAM;AAAA,EACP;AACD;",
-  "names": []
-}

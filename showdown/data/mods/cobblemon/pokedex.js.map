@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/cobblemon/pokedex.ts"],
-  "sourcesContent": ["export const Pokedex: {[k: string]: ModdedSpeciesData} = {};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAA4C,CAAC;",
-  "names": []
-}

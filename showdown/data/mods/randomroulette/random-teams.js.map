@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/randomroulette/random-teams.ts"],
-  "sourcesContent": ["import RandomTeams from '../../random-teams';\r\n\r\nexport class RandomRandomRouletteTeams extends RandomTeams {}\r\n\r\nexport default RandomRandomRouletteTeams;\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,0BAAwB;AAEjB,MAAM,kCAAkC,oBAAAA,QAAY;AAAC;AAE5D,IAAO,uBAAQ;",
-  "names": ["RandomTeams"]
-}

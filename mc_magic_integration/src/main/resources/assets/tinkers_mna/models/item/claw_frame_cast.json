@@ -1,6 +1,0 @@
-{
-  "textures": {
-    "layer0": "tinkers_mna:item/claw_cast"
-  },
-  "parent": "minecraft:item/generated"
-}

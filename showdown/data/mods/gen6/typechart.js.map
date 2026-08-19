@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen6/typechart.ts"],
-  "sourcesContent": ["export const TypeChart: {[k: string]: ModdedTypeData} = {\r\n\tdark: {\r\n\t\tinherit: true,\r\n\t\tdamageTaken: {\r\n\t\t\tBug: 1,\r\n\t\t\tDark: 2,\r\n\t\t\tDragon: 0,\r\n\t\t\tElectric: 0,\r\n\t\t\tFairy: 1,\r\n\t\t\tFighting: 1,\r\n\t\t\tFire: 0,\r\n\t\t\tFlying: 0,\r\n\t\t\tGhost: 2,\r\n\t\t\tGrass: 0,\r\n\t\t\tGround: 0,\r\n\t\t\tIce: 0,\r\n\t\t\tNormal: 0,\r\n\t\t\tPoison: 0,\r\n\t\t\tPsychic: 3,\r\n\t\t\tRock: 0,\r\n\t\t\tSteel: 0,\r\n\t\t\tWater: 0,\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAA2C;AAAA,EACvD,MAAM;AAAA,IACL,SAAS;AAAA,IACT,aAAa;AAAA,MACZ,KAAK;AAAA,MACL,MAAM;AAAA,MACN,QAAQ;AAAA,MACR,UAAU;AAAA,MACV,OAAO;AAAA,MACP,UAAU;AAAA,MACV,MAAM;AAAA,MACN,QAAQ;AAAA,MACR,OAAO;AAAA,MACP,OAAO;AAAA,MACP,QAAQ;AAAA,MACR,KAAK;AAAA,MACL,QAAQ;AAAA,MACR,QAAQ;AAAA,MACR,SAAS;AAAA,MACT,MAAM;AAAA,MACN,OAAO;AAAA,MACP,OAAO;AAAA,IACR;AAAA,EACD;AACD;",
-  "names": []
-}

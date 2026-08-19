@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen7pokebilities/moves.ts"],
-  "sourcesContent": ["export const Moves: {[k: string]: ModdedMoveData} = {\r\n\tgastroacid: {\r\n\t\tinherit: true,\r\n\t\tcondition: {\r\n\t\t\t// Ability suppression implemented in Pokemon.ignoringAbility() within sim/pokemon.js\r\n\t\t\tonStart(pokemon) {\r\n\t\t\t\tthis.add('-endability', pokemon);\r\n\t\t\t\tthis.singleEvent('End', pokemon.getAbility(), pokemon.abilityState, pokemon, pokemon, 'gastroacid');\r\n\t\t\t\tif (pokemon.m.innates) {\r\n\t\t\t\t\tfor (const innate of pokemon.m.innates) {\r\n\t\t\t\t\t\tpokemon.removeVolatile(\"ability\" + innate);\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t},\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,YAAY;AAAA,IACX,SAAS;AAAA,IACT,WAAW;AAAA;AAAA,MAEV,QAAQ,SAAS;AAChB,aAAK,IAAI,eAAe,OAAO;AAC/B,aAAK,YAAY,OAAO,QAAQ,WAAW,GAAG,QAAQ,cAAc,SAAS,SAAS,YAAY;AAClG,YAAI,QAAQ,EAAE,SAAS;AACtB,qBAAW,UAAU,QAAQ,EAAE,SAAS;AACvC,oBAAQ,eAAe,YAAY,MAAM;AAAA,UAC1C;AAAA,QACD;AAAA,MACD;AAAA,IACD;AAAA,EACD;AACD;",
-  "names": []
-}

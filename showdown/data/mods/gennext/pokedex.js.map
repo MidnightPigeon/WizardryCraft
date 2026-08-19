@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gennext/pokedex.ts"],
-  "sourcesContent": ["export const Pokedex: {[k: string]: ModdedSpeciesData} = {\r\n\tgenesectdouse: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Bug\", \"Water\"],\r\n\t},\r\n\tgenesectshock: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Bug\", \"Electric\"],\r\n\t},\r\n\tgenesectburn: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Bug\", \"Fire\"],\r\n\t},\r\n\tgenesectchill: {\r\n\t\tinherit: true,\r\n\t\ttypes: [\"Bug\", \"Ice\"],\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAA4C;AAAA,EACxD,eAAe;AAAA,IACd,SAAS;AAAA,IACT,OAAO,CAAC,OAAO,OAAO;AAAA,EACvB;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,OAAO,CAAC,OAAO,UAAU;AAAA,EAC1B;AAAA,EACA,cAAc;AAAA,IACb,SAAS;AAAA,IACT,OAAO,CAAC,OAAO,MAAM;AAAA,EACtB;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,OAAO,CAAC,OAAO,KAAK;AAAA,EACrB;AACD;",
-  "names": []
-}

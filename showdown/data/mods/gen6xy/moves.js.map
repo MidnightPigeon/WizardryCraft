@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen6xy/moves.ts"],
-  "sourcesContent": ["export const Moves: {[k: string]: ModdedMoveData} = {\r\n\tdragonascent: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\thyperspacefury: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\toriginpulse: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tprecipiceblades: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,cAAc;AAAA,IACb,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
-  "names": []
-}

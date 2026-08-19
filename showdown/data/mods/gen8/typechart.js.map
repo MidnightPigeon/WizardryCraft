@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen8/typechart.ts"],
-  "sourcesContent": ["export const TypeChart: {[k: string]: ModdedTypeData | null} = {\r\n\tstellar: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: 'Future',\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAkD;AAAA,EAC9D,SAAS;AAAA,IACR,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
-  "names": []
-}

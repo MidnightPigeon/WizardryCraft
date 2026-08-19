@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen7sm/items.ts"],
-  "sourcesContent": ["export const Items: {[k: string]: ModdedItemData} = {\r\n\tkommoniumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tlunaliumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tlycaniumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tmimikiumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tsolganiumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tultranecroziumz: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
-  "names": []
-}

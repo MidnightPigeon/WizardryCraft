@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen7/scripts.ts"],
-  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\r\n\tinherit: 'gen8',\r\n\tgen: 7,\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,SAAS;AAAA,EACT,KAAK;AACN;",
-  "names": []
-}

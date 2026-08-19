@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen8dlc1/rulesets.ts"],
-  "sourcesContent": ["export const Rulesets: {[k: string]: ModdedFormatData} = {\r\n\tteampreview: {\r\n\t\tinherit: true,\r\n\t\tonBattleStart() {\r\n\t\t\t// Xerneas isn't in DLC1 but operated this way pre-1.3.2 update\r\n\t\t\tconst formesToLeak = ['zaciancrowned', 'zamazentacrowned', 'xerneas'];\r\n\t\t\tfor (const pokemon of this.getAllPokemon()) {\r\n\t\t\t\tif (!formesToLeak.includes(pokemon.baseSpecies.id)) continue;\r\n\t\t\t\tconst newDetails = pokemon.details.replace(', shiny', '');\r\n\t\t\t\tthis.add('updatepoke', pokemon, newDetails);\r\n\t\t\t}\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAA4C;AAAA,EACxD,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,gBAAgB;AAEf,YAAM,eAAe,CAAC,iBAAiB,oBAAoB,SAAS;AACpE,iBAAW,WAAW,KAAK,cAAc,GAAG;AAC3C,YAAI,CAAC,aAAa,SAAS,QAAQ,YAAY,EAAE;AAAG;AACpD,cAAM,aAAa,QAAQ,QAAQ,QAAQ,WAAW,EAAE;AACxD,aAAK,IAAI,cAAc,SAAS,UAAU;AAAA,MAC3C;AAAA,IACD;AAAA,EACD;AACD;",
-  "names": []
-}

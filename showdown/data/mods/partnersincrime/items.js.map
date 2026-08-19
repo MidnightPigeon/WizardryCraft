@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/partnersincrime/items.ts"],
-  "sourcesContent": ["export const Items: {[k: string]: ModdedItemData} = {\r\n\tleppaberry: {\r\n\t\tinherit: true,\r\n\t\tonEat(pokemon) {\r\n\t\t\tconst moveSlot = pokemon.moveSlots.find(move => move.pp === 0) ||\r\n\t\t\t\tpokemon.moveSlots.find(move => move.pp < move.maxpp);\r\n\t\t\tif (!moveSlot) return;\r\n\t\t\tmoveSlot.pp += 10;\r\n\t\t\tif (moveSlot.pp > moveSlot.maxpp) moveSlot.pp = moveSlot.maxpp;\r\n\t\t\tif (!pokemon.m.curMoves.includes(moveSlot.id) && pokemon.m.trackPP.get(moveSlot.id)) {\r\n\t\t\t\tpokemon.m.trackPP.set(moveSlot.id, moveSlot.maxpp - moveSlot.pp);\r\n\t\t\t}\r\n\t\t\tthis.add('-activate', pokemon, 'item: Leppa Berry', moveSlot.move, '[consumed]');\r\n\t\t},\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,YAAY;AAAA,IACX,SAAS;AAAA,IACT,MAAM,SAAS;AACd,YAAM,WAAW,QAAQ,UAAU,KAAK,UAAQ,KAAK,OAAO,CAAC,KAC5D,QAAQ,UAAU,KAAK,UAAQ,KAAK,KAAK,KAAK,KAAK;AACpD,UAAI,CAAC;AAAU;AACf,eAAS,MAAM;AACf,UAAI,SAAS,KAAK,SAAS;AAAO,iBAAS,KAAK,SAAS;AACzD,UAAI,CAAC,QAAQ,EAAE,SAAS,SAAS,SAAS,EAAE,KAAK,QAAQ,EAAE,QAAQ,IAAI,SAAS,EAAE,GAAG;AACpF,gBAAQ,EAAE,QAAQ,IAAI,SAAS,IAAI,SAAS,QAAQ,SAAS,EAAE;AAAA,MAChE;AACA,WAAK,IAAI,aAAa,SAAS,qBAAqB,SAAS,MAAM,YAAY;AAAA,IAChF;AAAA,EACD;AACD;",
-  "names": []
-}

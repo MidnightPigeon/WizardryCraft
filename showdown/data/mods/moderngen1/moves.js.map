@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/moderngen1/moves.ts"],
-  "sourcesContent": ["export const Moves: {[k: string]: ModdedMoveData} = {\r\n\tdoubleironbash: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t\tgen: 1,\r\n\t},\r\n\tthousandarrows: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t\tgen: 1,\r\n\t},\r\n\tthousandwaves: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: null,\r\n\t\tgen: 1,\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,IACf,KAAK;AAAA,EACN;AAAA,EACA,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,IACf,KAAK;AAAA,EACN;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,eAAe;AAAA,IACf,KAAK;AAAA,EACN;AACD;",
-  "names": []
-}

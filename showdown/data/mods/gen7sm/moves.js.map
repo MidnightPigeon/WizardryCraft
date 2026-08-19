@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../data/mods/gen7sm/moves.ts"],
-  "sourcesContent": ["export const Moves: {[k: string]: ModdedMoveData} = {\r\n\tmindblown: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tphotongeyser: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n\tplasmafists: {\r\n\t\tinherit: true,\r\n\t\tisNonstandard: \"Future\",\r\n\t},\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAAuC;AAAA,EACnD,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,cAAc;AAAA,IACb,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
-  "names": []
-}
