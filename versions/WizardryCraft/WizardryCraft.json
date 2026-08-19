@@ -1,5 +1,5 @@
 {
-  "id": "WizadryCraft",
+  "id": "WizardryCraft",
   "arguments": {
     "game": [
       "--username",
@@ -2078,15 +2078,15 @@
       "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
       "size": 9598610
     },
-    "client": {
-      "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
-      "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
-      "size": 26836906
-    },
     "server": {
       "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
       "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
       "size": 51627615
+    },
+    "client": {
+      "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
+      "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+      "size": 26836906
     },
     "server_mappings": {
       "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
