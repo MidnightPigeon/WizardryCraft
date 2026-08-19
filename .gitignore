@@ -11,7 +11,9 @@ usernamecache.json
 /assets/indexes
 /assets/objects
 launcher_profiles.json
-/versions
+/versions/*
+!/versions/WizadryCraft/
+!/versions/WizadryCraft/**
 /assets/skins
 config/embeddium-options.json
 config/embeddium-fingerprint.json

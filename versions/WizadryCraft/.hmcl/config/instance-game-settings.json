@@ -1,0 +1,7 @@
+{
+  "$schema": "https://schemas.glavo.site/hmcl/instance-game-settings/1.0.0",
+  "icon": "COMMAND",
+  "overrideProperties": [
+    "runningDirectory"
+  ]
+}
