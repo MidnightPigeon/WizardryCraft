@@ -1,0 +1,922 @@
+[23:16:38] [main/INFO]: ModLauncher running: args [--username, Midnight_Pigeon, --version, WizardryCraft, --gameDir, E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft, --assetsDir, E:\MC_Projects\MC_Magic\.minecraft\assets, --assetIndex, 17, --uuid, dd0759f163ce32d6a39f055226e2ef5d, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.16.3, --width, 1600, --height, 900, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[23:16:38] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[23:16:38] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[23:16:38] [main/INFO]: Searching for graphics cards...
+[23:16:38] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon(TM) Graphics', adapterType=0x0000232B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0418637.inf_amd64_4462a7afa694670e\B418564\atig6pxx.dll', openglIcdVersion=32.0.21025.10016}
+[23:16:38] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [AMD_GAME_OPTIMIZATION_BROKEN]
+[23:16:38] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[23:16:38] [main/INFO]: Modifying process environment to apply workarounds for the AMD graphics driver...
+[23:16:38] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[23:16:38] [main/INFO]: Trying GL version 4.6
+[23:16:38] [main/INFO]: Requested GL version 4.6 got version 4.6
+[23:16:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/E:/MC_Projects/MC_Magic/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT
+[23:16:39] [pool-2-thread-1/INFO]: GL info: AMD Radeon(TM) Graphics GL version 4.6.0 Core Profile Context 25.9.1.250822, ATI Technologies Inc.
+[23:16:39] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.248:client]
+[23:16:39] [main/INFO]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[E:\MC_Projects\MC_Magic\.minecraft\libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "net.caffeinemc.sodium-neoforge-0.8.13-beta.2+mc1.21.1-mod.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@c1a4620, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@c1a4620, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@c1a4620, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@c1a4620, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [locator: net.caffeinemc.mods.sodium.service.SodiumServiceModLocator@c1a4620, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "appleskin-neoforge-mc1.21-3.0.9.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "balm-neoforge-1.21.1-21.0.65.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.1.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "ExplorersCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "ftb-jei-extras-21.1.7.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "ftb-library-neoforge-2101.1.35.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "ftb-quests-neoforge-2101.1.32.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "ftb-teams-neoforge-2101.1.10.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "jei-1.21.1-neoforge-19.44.0.403.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "kubejs-create-neoforge-2101.3.1-build.18.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "kubejs-neoforge-2101.7.2-build.368.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "kubejsadditions-neoforge-1.21.1-6.0.0.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "lodestone-1.21.1-1.8.2.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "lootjs-neoforge-1.21.1-3.7.0.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "malum-1.21.1-1.8.2.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "NaturesCompass-1.21.1-3.4.0-neoforge.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "rhino-2101.2.8-build.91.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "sable-neoforge-1.21.1-2.0.5.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "sablexaeromaps-1.21.1-1.0.34.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "waystones-neoforge-1.21.1-21.1.41.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "xaerominimap-neoforge-1.21.1-26.4.2.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:39] [main/INFO]: Found mod file "xaeroworldmap-neoforge-1.21.1-1.44.2.jar" [locator: {mods folder locator at E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\mods}, reader: mod manifest]
+[23:16:40] [main/INFO]: Found 18 dependencies adding them to mods collection
+[23:16:40] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "kuma-api-neoforge-21.0.8+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.65.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.5.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "better-advanced-tooltips-2101.1.0-build.1.jar" [parent: kubejs-neoforge-2101.7.2-build.368.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[23:16:40] [main/INFO]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "xaerolib-neoforge-1.21.1-1.7.1.jar" [parent: xaeroworldmap-neoforge-1.21.1-1.44.2.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[23:16:40] [main/INFO]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found library file "animated-gif-lib-for-java-animated-gif-lib-1.7.jar" [parent: kubejs-neoforge-2101.7.2-build.368.jar, locator: jarinjar]
+[23:16:40] [main/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: Found library file "tiny-java-server-1.0.0-build.33.jar" [parent: kubejs-neoforge-2101.7.2-build.368.jar, locator: jarinjar]
+[23:16:40] [main/INFO]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[23:16:40] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AdvancedLootInfo 1.12.0 (ali)
+		AppleSkin 3.0.9+mc1.21 (appleskin)
+		Architectury 13.0.11 (architectury)
+		Balm 21.0.65 (balm)
+		Better Advanced Tooltips 2101.1.0-build.1 (betteradvancedtooltips)
+		Create 6.0.10 (create)
+		Create Aeronautics 1.3.1 (aeronautics)
+		Create Aeronautics 1.3.1 (aeronautics_bundled)
+		Create Offroad 1.3.1 (offroad)
+		Create Simulated 1.3.1 (simulated)
+		Curios API 9.5.1+1.21.1 (curios)
+		Explorer's Compass 1.21.1-3.4.0-neoforge (explorerscompass)
+		Flywheel 1.0.6 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		FTB Jei Extras 21.1.7 (ftbjeiextras)
+		FTB Library 2101.1.35 (ftblibrary)
+		FTB Quests 2101.1.32 (ftbquests)
+		FTB Teams 2101.1.10 (ftbteams)
+		Just Enough Items 19.44.0.403 (jei)
+		KubeJS 2101.7.2-build.368 (kubejs)
+		KubeJS Additions 1.21.1-6.0.0 (kubejsadditions)
+		KubeJS Create 2101.3.1-build.18 (kubejs_create)
+		KumaAPI 21.0.8 (kuma_api)
+		Lodestone 1.8.2 (lodestone)
+		LootJS 1.21.1-3.7.0 (lootjs)
+		Malum 1.8.2 (malum)
+		Minecraft 1.21.1 (minecraft)
+		Nature's Compass 1.21.1-3.4.0-neoforge (naturescompass)
+		NeoForge 21.1.248 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+		Rhino 2101.2.8-build.91 (rhino)
+		Sable 2.0.5 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Sable Sublevels on Xaero's Maps 1.0.34 (sablexaeromaps)
+		Sodium 0.8.13-beta.2+mc1.21.1 (sodium)
+		Veil 4.3.2 (veil)
+		Waystones 21.1.41 (waystones)
+		Xaero's Minimap 26.4.2 (xaerominimap)
+		Xaero's World Map 1.44.2 (xaeroworldmap)
+		XaeroLib 1.7.1 (xaerolib)
+[23:16:40] [main/INFO]: Loading coremod script-engine for [xaerominimap, xaeroworldmap]
+[23:16:41] [main/INFO]: Compatibility level set to JAVA_17
+[23:16:41] [main/INFO]: Compatibility level set to JAVA_21
+[23:16:41] [main/INFO]: Launching target 'forgeclient' with arguments [--version, WizardryCraft, --gameDir, E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft, --assetsDir, E:\MC_Projects\MC_Magic\.minecraft\assets, --uuid, dd0759f163ce32d6a39f055226e2ef5d, --username, Midnight_Pigeon, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.16.3, --width, 1600, --height, 900]
+[23:16:41] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'xaerolib.refmap.json' for xaerolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/INFO]: Using Sodium renderer mixins
+[23:16:41] [main/INFO]: Using Sodium renderer mixins
+[23:16:41] [main/WARN]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:41] [main/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:42] [main/WARN]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:42] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:42] [main/INFO]: Loaded configuration file for Sodium: 45 options available, 0 override(s) found
+[23:16:42] [main/WARN]: Reference map 'lodestone.refmap.json' for lodestone.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:42] [main/WARN]: Reference map 'malum.refmap.json' for malum.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:42] [main/WARN]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:16:43] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[23:16:43] [main/WARN]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[23:16:43] [main/WARN]: Error loading class: dev/emi/emi/screen/RecipeScreen (java.lang.ClassNotFoundException: dev.emi.emi.screen.RecipeScreen)
+[23:16:43] [main/WARN]: @Mixin target dev.emi.emi.screen.RecipeScreen was not found ali.emi.mixins.json:MixinRecipeScreen from mod ali
+[23:16:43] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[23:16:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[198月2026 23:16:45.712] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 456 milliseconds
+[198月2026 23:16:51.386] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/MC_Projects/MC_Magic/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23216!/assets/.mcassetsroot' uses unexpected schema
+[198月2026 23:16:51.387] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/MC_Projects/MC_Magic/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23216!/data/.mcassetsroot' uses unexpected schema
+[198月2026 23:16:51.426] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=http://127.0.0.1:57056/https/sessionserver.mojang.com, servicesHost=http://127.0.0.1:57056/https/api.minecraftservices.com, name=PROD]
+[198月2026 23:16:51.439] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Midnight_Pigeon
+[198月2026 23:16:51.570] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[198月2026 23:16:51.651] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: ATI Technologies Inc.
+[198月2026 23:16:51.651] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: AMD Radeon(TM) Graphics
+[198月2026 23:16:51.651] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 Core Profile Context 25.9.1.250822
+[198月2026 23:16:52.201] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[198月2026 23:16:52.248] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[198月2026 23:16:52.648] [modloading-worker-0/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: World Map found!
+[198月2026 23:16:52.648] [modloading-worker-0/INFO] [xaero.hud.minimap.MinimapLogs/]: No Optifine!
+[198月2026 23:16:52.648] [modloading-worker-0/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
+[198月2026 23:16:52.652] [modloading-worker-0/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero's Minimap: Waystones found!
+[198月2026 23:16:52.708] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[198月2026 23:16:52.851] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering client data for channel xaerolib:main!
+[198月2026 23:16:52.858] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[198月2026 23:16:52.862] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[198月2026 23:16:52.885] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[198月2026 23:16:52.892] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary client config for channel xaerolib:main!
+[198月2026 23:16:52.901] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading client config profiles for channel xaerolib:main!
+[198月2026 23:16:52.910] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[198月2026 23:16:53.056] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering client data for channel xaerominimap:main!
+[198月2026 23:16:53.126] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[198月2026 23:16:53.135] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[198月2026 23:16:53.142] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary client config for channel xaerominimap:main!
+[198月2026 23:16:53.150] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading client config profiles for channel xaerominimap:main!
+[198月2026 23:16:53.161] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[198月2026 23:16:53.171] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering client data for channel xaeroworldmap:main!
+[198月2026 23:16:53.203] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.config.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 38 properties.
+[198月2026 23:16:53.203] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[198月2026 23:16:53.212] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[198月2026 23:16:53.220] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary client config for channel xaeroworldmap:main!
+[198月2026 23:16:53.230] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading client config profiles for channel xaeroworldmap:main!
+[198月2026 23:16:53.230] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[198月2026 23:16:53.236] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.247 milliseconds
+[198月2026 23:16:53.306] [modloading-worker-0/INFO] [KubeJS/]: Loading vanilla registries...
+[198月2026 23:16:53.320] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[198月2026 23:16:53.325] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[198月2026 23:16:53.337] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejsadditions
+[198月2026 23:16:53.340] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[198月2026 23:16:53.341] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source lootjs
+[198月2026 23:16:53.343] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source malum
+[198月2026 23:16:53.348] [modloading-worker-0/INFO] [KubeJS/]: Done in 24.48 ms
+[198月2026 23:16:54.028] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[198月2026 23:16:54.029] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:main.js in 0.038 s
+[198月2026 23:16:54.031] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.667 s with 0 errors and 0 warnings
+[198月2026 23:16:54.061] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#1: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[198月2026 23:16:54.064] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#2: Loaded Java class 'java.util.ArrayList'
+[198月2026 23:16:54.065] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#3: Loaded Java class 'com.sammy.malum.client.screen.codex.helper.CodexItemHelper'
+[198月2026 23:16:54.068] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#4: Loaded Java class 'pie.ilikepiefoo.compat.jei.events.JEIEventJS'
+[198月2026 23:16:54.069] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#5: Loaded Java class 'com.sammy.malum.compat.jei.JEIHelper'
+[198月2026 23:16:54.075] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#6: Loaded Java class 'com.sammy.malum.registry.common.item.MalumItems'
+[198月2026 23:16:54.075] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#7: Loaded Java class 'com.sammy.malum.registry.common.recipe.MalumRecipeTypes'
+[198月2026 23:16:54.075] [modloading-worker-0/INFO] [KubeJS Client/]: client_scripts:malum_jei_fix.js#8: Loaded Java class 'mezz.jei.api.recipe.RecipeIngredientRole'
+[198月2026 23:16:54.080] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:malum_jei_fix.js in 0.032 s
+[198月2026 23:16:54.081] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.049 s with 0 errors and 0 warnings
+[198月2026 23:16:54.087] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 3 files in kubejs/assets/ in 1ms
+[198月2026 23:16:54.087] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/data/ in 0ms
+[198月2026 23:16:54.889] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[198月2026 23:16:54.904] [modloading-worker-0/WARN] [dev.ryanhcode.sable.Sable/]: NOTE: Sable is loaded with Flywheel. Sable contains extensive shader overrides and a full light-storage replacement. Expect this to cause compatibility issues. If issues arise, please report them to the Sable issue tracker (https://github.com/ryanhcode/sable/issues) instead of the Flywheel issue tracker.
+[198月2026 23:16:54.904] [modloading-worker-0/INFO] [com.sablexaeromaps.SableXaeroMaps/]: Sable Sublevels on Xaero's Maps loaded — sub-levels will be drawn onto the minimap and world map
+[198月2026 23:16:56.999] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\config\malum-client.toml is not correct. Correcting
+[198月2026 23:16:57.217] [Render thread/INFO] [Veil/]: GL Debug supported
+[198月2026 23:16:57.836] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/sodium, mod/rhino, mod/kuma_api, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/jei, mod/ftbjeiextras, mod/xaerolib, mod/aeronautics, mod/aeronautics_bundled, mod/curios, mod/sablecompanion, mod/flywheel, mod/ponder, mod/create, mod/sable, mod/xaerominimap, mod/waystones, mod/xaeroworldmap, mod/sablexaeromaps, mod/neoforge, mod/kubejs, mod/kubejsadditions, mod/naturescompass, mod/fabric_block_view_api_v2, mod/veil, mod/simulated, mod/kubejs_create, mod/betteradvancedtooltips, mod/lootjs, mod/ali, mod/architectury, mod/ftblibrary, mod/appleskin, mod/explorerscompass, mod/balm, mod/fabric_rendering_data_attachment_v1, mod/lodestone, mod/malum, mod/ftbteams, mod/ftbquests, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], mod/offroad, KubeJS Virtual Resource Pack [Last, assets]
+[198月2026 23:16:57.856] [Worker-Main-5/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[198月2026 23:16:57.889] [Worker-Main-12/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Registered ALI plugin [ali] com.yanny.ali.plugin.Plugin
+[198月2026 23:16:57.895] [Worker-Main-12/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Registered ALI plugin [neoforge] com.yanny.ali.neoforge.plugin.NeoForgePlugin
+[198月2026 23:16:57.896] [Worker-Main-12/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Registered ALI plugin [lootjs] com.yanny.ali.lootjs.LootJsPlugin
+[198月2026 23:16:57.898] [Worker-Main-12/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Found 3 plugin(s)
+[198月2026 23:16:57.898] [Worker-Main-12/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering common plugin data...
+[198月2026 23:16:57.902] [Worker-Main-12/INFO] [com.yanny.ali.configuration.ConfigUtils/]: Loading configuration file E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\config\ali\ali_common.json
+[198月2026 23:16:57.957] [Worker-Main-15/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[198月2026 23:16:57.993] [Worker-Main-12/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 1 entity variants
+[198月2026 23:16:57.994] [Worker-Main-12/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering common plugin data finished
+[198月2026 23:16:58.008] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[198月2026 23:16:58.158] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[198月2026 23:16:58.375] [Worker-Main-11/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 1/2!
+[198月2026 23:16:58.393] [Worker-Main-10/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[198月2026 23:16:58.438] [Worker-Main-5/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[198月2026 23:16:58.468] [Worker-Main-12/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering client plugin data...
+[198月2026 23:16:58.539] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[198月2026 23:16:58.740] [Worker-Main-12/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 18 node widgets
+[198月2026 23:16:58.741] [Worker-Main-12/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 18 data node factories
+[198月2026 23:16:58.741] [Worker-Main-12/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering client plugin data finished
+[198月2026 23:16:59.467] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[198月2026 23:16:59.484] [Worker-Main-11/WARN] [xaero.lib.XaeroLib/]: io exception while checking patreon: Read timed out
+[198月2026 23:16:59.527] [Render thread/INFO] [KubeJS/]: Started the local web server at http://localhost:61423
+[198月2026 23:16:59.530] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[198月2026 23:16:59.535] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: 520523812
+[198月2026 23:17:00.605] [Render thread/ERROR] [xaero.map.WorldMap/]: io exception while checking versions: Read timed out
+[198月2026 23:17:00.608] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: map_synced
+[198月2026 23:17:00.611] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[198月2026 23:17:00.614] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: minimap_synced
+[198月2026 23:17:00.614] [Render thread/INFO] [xaero.map.WorldMap/]: No Optifine!
+[198月2026 23:17:00.615] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: No Vivecraft!
+[198月2026 23:17:00.643] [Render thread/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'xaeroworldmap' took 1.112 s to run a deferred task.
+[198月2026 23:17:00.645] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[198月2026 23:17:01.769] [Render thread/WARN] [xaero.hud.minimap.MinimapLogs/]: io exception while checking versions: Read timed out
+[198月2026 23:17:01.770] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered player tracker system: minimap_synced
+[198月2026 23:17:01.771] [Render thread/WARN] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Mod 'xaerominimap' took 1.125 s to run a deferred task.
+[198月2026 23:17:01.772] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[198月2026 23:17:01.772] [Render thread/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib client 2/2!
+[198月2026 23:17:01.806] [Render thread/INFO] [Veil/]: Loaded 0 shader redirects, 0 replacements
+[198月2026 23:17:02.166] [Render thread/INFO] [Veil/]: Loaded 29 shaders from: pinwheel/shaders/program
+[198月2026 23:17:02.288] [Worker-Main-9/INFO] [PonderIndex/]: Registering Ponder Scenes took 85.19 ms
+[198月2026 23:17:02.293] [Worker-Main-9/INFO] [PonderIndex/]: Registering Ponder Tags took 5.097 ms
+[198月2026 23:17:02.473] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[198月2026 23:17:02.473] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[198月2026 23:17:02.542] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 耳机 (Realtek(R) Audio)
+[198月2026 23:17:02.542] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[198月2026 23:17:02.625] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[198月2026 23:17:02.653] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[198月2026 23:17:02.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[198月2026 23:17:02.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[198月2026 23:17:02.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[198月2026 23:17:02.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[198月2026 23:17:02.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[198月2026 23:17:02.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[198月2026 23:17:02.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[198月2026 23:17:02.739] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/particles.png-atlas
+[198月2026 23:17:02.741] [Render thread/WARN] [net.minecraft.client.particle.ParticleEngine/]: Missing particle sprites: aeronautics:gust_0
+[198月2026 23:17:02.741] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[198月2026 23:17:02.742] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[198月2026 23:17:02.742] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[198月2026 23:17:02.742] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[198月2026 23:17:02.779] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[198月2026 23:17:02.872] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Registering shaders for mod: lodestone
+[198月2026 23:17:02.935] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Loaded geometry program: lodestone:nineslice/nine_slice
+[198月2026 23:17:02.940] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Loaded geometry program: lodestone:nineslice/distorted/distorted_nine_slice_texture
+[198月2026 23:17:02.986] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Registering shaders for mod: malum
+[198月2026 23:17:03.024] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[198月2026 23:17:03.050] [Render thread/INFO] [xaero.lib.XaeroLib/]: Successfully reloaded the XaeroLib shaders!
+[198月2026 23:17:03.086] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 28.496 ms
+[198月2026 23:17:03.156] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 58 train hat configurations.
+[198月2026 23:17:03.159] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[198月2026 23:17:03.159] [Render thread/INFO] [Veil/]: Loaded 3 framebuffers
+[198月2026 23:17:03.182] [Render thread/INFO] [Veil/]: Loaded 6 post pipelines
+[198月2026 23:17:03.193] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[198月2026 23:17:03.194] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[198月2026 23:17:03.196] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[198月2026 23:17:03.196] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[198月2026 23:17:03.196] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[198月2026 23:17:03.438] [Render thread/INFO] [Veil/]: Compiled 81 vanilla shaders in 433.1 ms
+[198月2026 23:17:03.570] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 00880e3222f846ceb254021cca644ce8
+[198月2026 23:17:03.571] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 00880e3222f846ceb254021cca644ce8'
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[198月2026 23:17:04.758] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[198月2026 23:17:06.958] [Render thread/INFO] [com.simibubi.create.Create/]: Created 171 recipes which will be injected into the game
+[198月2026 23:17:06.962] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[198月2026 23:17:06.996] [Render thread/INFO] [KubeJS Server/]: server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[198月2026 23:17:06.997] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:main.js in 0.001 s
+[198月2026 23:17:07.013] [Render thread/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.023 s with 0 errors and 0 warnings
+[198月2026 23:17:08.229] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: farmersdelight:mineable/knife
+[198月2026 23:17:08.362] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:spirit_repair/flint_restoration
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: farmersdelight:flint_knife
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.380] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:spirit_repair/iron_restoration
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: farmersdelight:iron_knife
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.422] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:spirit_repair/diamond_restoration
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: farmersdelight:diamond_knife
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.450] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:spirit_repair/gold_restoration
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: farmersdelight:golden_knife
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.463] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:spirit_repair/netherite_restoration
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: farmersdelight:netherite_knife
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.483] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:create/milling/grim_talc
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"chance":0.25,"count":4,"item":"minecraft:bone_meal"}]; No key id in MapLike[{"chance":0.25,"count":4,"item":"minecraft:bone_meal"}]; Second: Failed to parse either. First: No key id in MapLike[{"chance":0.25,"count":4,"item":"minecraft:bone_meal"}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:bone_meal"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"chance":0.25,"item":"minecraft:yellow_dye"}]; No key id in MapLike[{"chance":0.25,"item":"minecraft:yellow_dye"}]; Second: Failed to parse either. First: No key id in MapLike[{"chance":0.25,"item":"minecraft:yellow_dye"}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:yellow_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"count":6,"item":"minecraft:bone_meal"}]; No key id in MapLike[{"count":6,"item":"minecraft:bone_meal"}]; Second: Failed to parse either. First: No key id in MapLike[{"count":6,"item":"minecraft:bone_meal"}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:bone_meal"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23150!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:498) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$1(SelectWorldScreen.java:53) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.Button.onPress(Button.java:41) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:47) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.1.248/net.neoforged.neoforge.client.extensions.IAbstractWidgetExtension.onClick(IAbstractWidgetExtension.java:36) ~[neoforge-21.1.248-universal.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:451) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:95) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:202) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23185!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.3.jar%23173!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:134) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:147) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:292) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1217) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23107!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[198月2026 23:17:08.504] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3880 recipes
+[198月2026 23:17:08.696] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3540 advancements
+[198月2026 23:17:08.704] [Render thread/INFO] [Curios API/]: Loaded 13 curio slots
+[198月2026 23:17:08.707] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
+[198月2026 23:17:08.718] [Render thread/INFO] [com.yanny.ali.manager.FakeLootDataManager/]: Loaded 17 fake loot tables
+[198月2026 23:17:08.719] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:panda
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Removed spirit drops for entity with registry name: minecraft:ender_dragon
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:stray
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:shulker
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:vex
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:skeleton
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:zombie
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:zombified_piglin
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:glow_squid
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:phantom
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:cat
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:goat
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:vindicator
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:wither
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:zombie_villager
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:drowned
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:tadpole
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:slime
+[198月2026 23:17:08.720] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:spider
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:cave_spider
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:dolphin
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:armadillo
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:piglin_brute
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:breeze
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:snow_golem
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:hoglin
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:evoker
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:turtle
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:parrot
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:zombie_horse
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:witch
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:wolf
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:creeper
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:chicken
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:tropical_fish
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:elder_guardian
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:endermite
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:llama
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:guardian
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:cod
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:cow
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:magma_cube
+[198月2026 23:17:08.721] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:wither_skeleton
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:pig
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:ocelot
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:donkey
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:ravager
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:bogged
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:silverfish
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:mule
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:horse
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:piglin
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:pillager
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:enderman
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:bee
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:salmon
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:mooshroom
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:squid
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:fox
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:trader_llama
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:sheep
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:skeleton_horse
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:pufferfish
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:ghast
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:villager
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:zoglin
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:husk
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:polar_bear
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:strider
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:iron_golem
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:bat
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:axolotl
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:rabbit
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:wandering_trader
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:illusioner
+[198月2026 23:17:08.722] [Render thread/INFO] [com.sammy.malum.MalumMod/]: Added spirit drops for entity with registry name: minecraft:blaze
+[198月2026 23:17:08.726] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:max_mana
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:fire_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:ice_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:lightning_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:holy_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:ender_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:blood_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:evocation_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:nature_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:eldritch_spell_power
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:mana_regen
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:cooldown_reduction
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:cast_time_reduction
+[198月2026 23:17:08.728] [Render thread/WARN] [com.sammy.malum.MalumMod/]: Malignant conversion data references an attribute that does not exist: irons_spellbooks:summon_damage
+[198月2026 23:17:08.738] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: farmersdelight:mineable/knife
+[198月2026 23:17:09.799] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Player logout received
+[198月2026 23:17:09.799] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Cleared Loot data
+[198月2026 23:17:09.888] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[198月2026 23:17:09.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[198月2026 23:17:09.990] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[198月2026 23:17:10.046] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[198月2026 23:17:10.054] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Using game directory relative Sable Rapier native directory E:\MC_Projects\MC_Magic\.minecraft\versions\WizardryCraft\.sable\natives
+[198月2026 23:17:10.455] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[198月2026 23:17:10.892] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[198月2026 23:17:10.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[198月2026 23:17:10.924] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[198月2026 23:17:11.141] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[198月2026 23:17:11.279] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[198月2026 23:17:11.280] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 359 ms
+[198月2026 23:17:11.280] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[198月2026 23:17:11.283] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[198月2026 23:17:11.285] [Server thread/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering server plugin data...
+[198月2026 23:17:11.336] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 8/8 entry factories
+[198月2026 23:17:11.336] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 6/6 number converters
+[198月2026 23:17:11.336] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 11 trade item listings
+[198月2026 23:17:11.336] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 8 entry item collectors
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 2 function item collectors
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 11 trade item collectors
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 42/41 function tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 31/31 condition tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 1 ingredient tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 122 value tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 14/17 item sub predicate tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 19/21 entity sub predicate tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 57/167 data component type tooltips
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 3 chance modifiers
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 4 count modifiers
+[198月2026 23:17:11.337] [Server thread/INFO] [com.yanny.aci.manager.ManagedRegistry/]: Registered 15 item stack modifiers
+[198月2026 23:17:11.338] [Server thread/INFO] [com.yanny.ali.manager.AliServerRegistry/]: Registered 0 loot modifiers
+[198月2026 23:17:11.338] [Server thread/INFO] [com.yanny.aci.manager.CorePluginManager/]: Registering server plugin data finished
+[198月2026 23:17:11.338] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Started reading loot info
+[198月2026 23:17:11.927] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Skipped 48 empty or hidden loot tables and 0 injected loot tables
+[198月2026 23:17:11.931] [Server thread/WARN] [com.yanny.ali.network.AbstractServer/]: No trades defined for minecraft:none
+[198月2026 23:17:11.932] [Server thread/WARN] [com.yanny.ali.network.AbstractServer/]: No trades defined for minecraft:nitwit
+[198月2026 23:17:11.933] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Processing 2262 loot tables, 17 fake loot tables and 14 trades took 595ms
+[198月2026 23:17:12.049] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Compressed loot data (0.38 MB -> 0.08 MB) and stored in 3 chunk(s)
+[198月2026 23:17:12.213] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[198月2026 23:17:12.213] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[198月2026 23:17:12.383] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[198月2026 23:17:12.391] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x8ca8e33e]'
+[198月2026 23:17:12.399] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[198月2026 23:17:12.431] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[198月2026 23:17:12.436] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[198月2026 23:17:12.663] [Render thread/INFO] [com.simibubi.create.Create/]: Created 171 recipes which will be injected into the game
+[198月2026 23:17:12.665] [Render thread/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[198月2026 23:17:12.949] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midnight_Pigeon[local:E:797704cf] logged in with entity id 251 at (4.545458866889053, 71.0, -18.939648095341784)
+[198月2026 23:17:12.956] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player Midnight_Pigeon
+[198月2026 23:17:13.021] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap required item set to nothing.
+[198月2026 23:17:13.021] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: New Xaero hud session initialized!
+[198月2026 23:17:13.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midnight_Pigeon加入了游戏
+[198月2026 23:17:13.071] [Render thread/INFO] [xaero.map.WorldMap/]: Fullscreen map required item set to nothing.
+[198月2026 23:17:13.092] [Render thread/INFO] [xaero.map.WorldMap/]: New world map session initialized!
+[198月2026 23:17:13.378] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[198月2026 23:17:13.493] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Player login received
+[198月2026 23:17:13.501] [Render thread/INFO] [flywheel/]: Started 10 worker threads
+[198月2026 23:17:13.580] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[198月2026 23:17:13.584] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI...
+[198月2026 23:17:13.587] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Configuring JEI took 1.979 milliseconds
+[198月2026 23:17:13.596] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[198月2026 23:17:13.606] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 10.07 milliseconds
+[198月2026 23:17:13.608] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[198月2026 23:17:13.612] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.870 milliseconds
+[198月2026 23:17:13.614] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[198月2026 23:17:13.779] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. K.KubeJS
+[198月2026 23:17:13.857] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 241.1 milliseconds
+[198月2026 23:17:13.858] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 242.8 milliseconds
+[198月2026 23:17:13.858] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[198月2026 23:17:13.865] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 6.703 milliseconds
+[198月2026 23:17:13.865] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[198月2026 23:17:13.868] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 2.017 milliseconds
+[198月2026 23:17:13.923] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[198月2026 23:17:13.926] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.674 milliseconds
+[198月2026 23:17:13.957] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search...
+[198月2026 23:17:13.958] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced search took 722.6 microseconds
+[198月2026 23:17:13.959] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[198月2026 23:17:13.980] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 19.39 milliseconds
+[198月2026 23:17:14.046] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 65.71 milliseconds
+[198月2026 23:17:14.086] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: kubejsadditions:jei_plugin took 39.86 milliseconds
+[198月2026 23:17:14.098] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: ali:jei_plugin took 11.69 milliseconds
+[198月2026 23:17:14.100] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 139.7 milliseconds
+[198月2026 23:17:14.101] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[198月2026 23:17:14.106] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 5.133 milliseconds
+[198月2026 23:17:14.106] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[198月2026 23:17:14.119] [Render thread/INFO] [KubeJS Client/]: Added Malum soulbinding brazier as a JEI catalyst for soul binding recipes.
+[198月2026 23:17:14.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 13.54 milliseconds
+[198月2026 23:17:14.122] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[198月2026 23:17:14.134] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 11.35 milliseconds
+[198月2026 23:17:14.136] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[198月2026 23:17:14.137] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.439 milliseconds
+[198月2026 23:17:14.138] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[198月2026 23:17:14.473] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 334.4 milliseconds
+[198月2026 23:17:14.614] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 140.0 milliseconds
+[198月2026 23:17:14.653] [Render thread/INFO] [KubeJS Client/]: Added 36 Malum soul binding recipes to JEI.
+[198月2026 23:17:14.688] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: kubejsadditions:jei_plugin took 71.59 milliseconds
+[198月2026 23:17:14.693] [Render thread/INFO] [com.yanny.ali.compatibility.common.GenericUtils/]: Starting data registration...
+[198月2026 23:17:14.693] [Render thread/INFO] [com.yanny.ali.compatibility.common.GenericUtils/]: Data not ready. Requesting data from server (Attempt 1/3)
+[198月2026 23:17:14.694] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Started syncing loot info to Midnight_Pigeon
+[198月2026 23:17:14.694] [Server thread/INFO] [com.yanny.ali.network.AbstractServer/]: Finished syncing loot info to Midnight_Pigeon
+[198月2026 23:17:14.695] [Netty Local Client IO #0/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Started receiving loot data
+[198月2026 23:17:14.696] [Render thread/INFO] [com.yanny.ali.jei.compatibility.JeiCompatibility/]: Adding loot information to JEI
+[198月2026 23:17:14.696] [Netty Local Client IO #0/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Received last 3 chunk(s). Done receiving data.
+[198月2026 23:17:14.697] [Netty Local Client IO #0/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Finished receiving loot data
+[198月2026 23:17:14.846] [Render thread/INFO] [com.yanny.ali.compatibility.common.GenericUtils/]: Data registration finished successfully.
+[198月2026 23:17:14.846] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: ali:jei_plugin took 157.5 milliseconds
+[198月2026 23:17:14.857] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 718.4 milliseconds
+[198月2026 23:17:14.871] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[198月2026 23:17:14.880] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 7.756 milliseconds
+[198月2026 23:17:14.891] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[198月2026 23:17:14.894] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[198月2026 23:17:14.909] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 13.59 milliseconds
+[198月2026 23:17:14.915] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[198月2026 23:17:14.918] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[198月2026 23:17:14.918] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[198月2026 23:17:14.947] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 28.75 milliseconds
+[198月2026 23:17:14.947] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[198月2026 23:17:15.322] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3111 ingredients
+[198月2026 23:17:15.332] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3111 ingredients
+[198月2026 23:17:15.333] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 386.5 milliseconds
+[198月2026 23:17:15.520] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 605.1 milliseconds
+[198月2026 23:17:15.521] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 606.4 milliseconds
+[198月2026 23:17:15.523] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 631.0 milliseconds
+[198月2026 23:17:15.523] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[198月2026 23:17:15.531] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 45 net.minecraft.world.item.ItemStack
+[198月2026 23:17:15.561] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: malum:main took 34.94 milliseconds
+[198月2026 23:17:15.562] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 38.29 milliseconds
+[198月2026 23:17:15.562] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.981 seconds
+[198月2026 23:17:15.589] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Minimap updated server level id: -998474486 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[198月2026 23:17:15.633] [Render thread/INFO] [FTB Quests/]: Read 581 bytes, 1 objects
+[198月2026 23:17:15.655] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 32 advancements
+[198月2026 23:17:16.249] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[198月2026 23:17:16.370] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloading radar icon resources...
+[198月2026 23:17:16.396] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Reloaded radar icon resources!
+[198月2026 23:17:32.326] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[198月2026 23:17:32.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:overworld
+[198月2026 23:17:32.348] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:overworld
+[198月2026 23:17:32.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:the_end
+[198月2026 23:17:32.387] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:the_end
+[198月2026 23:17:32.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:the_nether
+[198月2026 23:17:32.387] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:the_nether
+[198月2026 23:17:32.866] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[198月2026 23:17:32.866] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[198月2026 23:17:32.866] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero hud session finalized.
+[198月2026 23:17:32.866] [Render thread/INFO] [xaero.map.WorldMap/]: Finalizing world map session...
+[198月2026 23:17:32.909] [Thread-9/INFO] [xaero.map.WorldMap/]: World map cleaned normally!
+[198月2026 23:17:32.970] [Render thread/INFO] [xaero.map.WorldMap/]: World map session finalized.
+[198月2026 23:17:32.971] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[198月2026 23:17:32.972] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[198月2026 23:17:32.972] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[198月2026 23:17:32.973] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.647 milliseconds
+[198月2026 23:17:32.974] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Player logout received
+[198月2026 23:17:32.974] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Cleared Loot data
+[198月2026 23:17:33.035] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midnight_Pigeon lost connection: 连接中断
+[198月2026 23:17:33.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midnight_Pigeon退出了游戏
+[198月2026 23:17:33.054] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[198月2026 23:17:33.086] [Server thread/INFO] [com.yanny.aci.manager.CorePluginManager/]: Deregistering server plugin data...
+[198月2026 23:17:33.086] [Server thread/INFO] [com.yanny.aci.manager.CorePluginManager/]: Deregistering server plugin data finished
+[198月2026 23:17:33.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[198月2026 23:17:33.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[198月2026 23:17:33.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[198月2026 23:17:33.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:overworld
+[198月2026 23:17:33.277] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:overworld
+[198月2026 23:17:33.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:the_end
+[198月2026 23:17:33.451] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:the_end
+[198月2026 23:17:33.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST]'/minecraft:the_nether
+[198月2026 23:17:33.459] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[TEST]'/minecraft:the_nether
+[198月2026 23:17:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TEST): All chunks are saved
+[198月2026 23:17:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[198月2026 23:17:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[198月2026 23:17:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[198月2026 23:17:33.492] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[198月2026 23:17:33.894] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Shutting down Lodestone
+[198月2026 23:17:33.910] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[198月2026 23:17:33.911] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Player logout received
+[198月2026 23:17:33.911] [Render thread/INFO] [com.yanny.ali.manager.AliClientRegistry/]: Cleared Loot data
+[198月2026 23:17:33.931] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Closed geometry program: lodestone:nineslice/nine_slice
+[198月2026 23:17:33.931] [Render thread/INFO] [team.lodestar.lodestone.LodestoneLib/]: Closed geometry program: lodestone:nineslice/distorted/distorted_nine_slice_texture

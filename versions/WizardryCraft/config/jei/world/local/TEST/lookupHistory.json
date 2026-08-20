@@ -1,0 +1,20 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"malum:soulbinding_brazier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_the_warlock\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:refined_soulstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:encyclopedia_arcana"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:spirit_altar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_defiance\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_rune_exploitation\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:spirit_crucible"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_wyrd_reconstruction\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:earthen_spirit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:geas","components":"{\"malum:geas_effect\":{geasEffectType:\"malum:pact_of_the_skybreaker\",isCreative:1b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:pearlescent_levitite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:levitite_blend"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:levitite_blend_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:levitite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:trans_prideweave"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:esoteric_spool"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

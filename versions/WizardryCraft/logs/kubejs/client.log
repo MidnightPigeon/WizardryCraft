@@ -1,0 +1,22 @@
+[23:16:54] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[23:16:54] [INIT] Loaded plugins:
+[23:16:54] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[23:16:54] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[23:16:54] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[23:16:54] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[23:16:54] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[23:16:54] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[23:16:54] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#1: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#2: Loaded Java class 'java.util.ArrayList'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#3: Loaded Java class 'com.sammy.malum.client.screen.codex.helper.CodexItemHelper'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#4: Loaded Java class 'pie.ilikepiefoo.compat.jei.events.JEIEventJS'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#5: Loaded Java class 'com.sammy.malum.compat.jei.JEIHelper'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#6: Loaded Java class 'com.sammy.malum.registry.common.item.MalumItems'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#7: Loaded Java class 'com.sammy.malum.registry.common.recipe.MalumRecipeTypes'
+[23:16:54] [INFO] client_scripts:malum_jei_fix.js#8: Loaded Java class 'mezz.jei.api.recipe.RecipeIngredientRole'
+[23:16:54] [INFO] Loaded script client_scripts:malum_jei_fix.js in 0.032 s
+[23:16:54] [INFO] Loaded 1/1 KubeJS client scripts in 0.049 s with 0 errors and 0 warnings
+[23:16:57] [INFO] Client resource reload complete!
+[23:17:14] [INFO] Added Malum soulbinding brazier as a JEI catalyst for soul binding recipes.
+[23:17:14] [INFO] Added 36 Malum soul binding recipes to JEI.

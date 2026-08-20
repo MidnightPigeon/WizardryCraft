@@ -2,6 +2,16 @@
   "$schema": "https://schemas.glavo.site/hmcl/instance-game-settings/1.0.0",
   "icon": "COMMAND",
   "overrideProperties": [
-    "runningDirectory"
-  ]
+    "runningDirectory",
+    "width",
+    "maxMemory",
+    "processPriority",
+    "autoMemory",
+    "height"
+  ],
+  "autoMemory": false,
+  "maxMemory": 6144,
+  "width": 1600.0,
+  "height": 900.0,
+  "processPriority": "HIGH"
 }

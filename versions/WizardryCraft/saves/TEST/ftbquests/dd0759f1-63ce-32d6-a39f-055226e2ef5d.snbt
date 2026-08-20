@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "dd0759f163ce32d6a39f055226e2ef5d"
+	name: "Midnight_Pigeon#dd0759f1"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}
