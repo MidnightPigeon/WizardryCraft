@@ -1,0 +1,10 @@
+[guide]
+	#Give the guide once when a player first joins this world. Does not replace held items.
+	giveOnFirstJoin = true
+
+	[rendering.crystalBall]
+		#1 = roaming light motes; 2 = roaming miniature stored items (default).
+		#One display per occupied slot. Empty balls display no contents. This is a local visual preference.
+		# Default: 2
+		# Range: 1 ~ 2
+		displayMode = 2

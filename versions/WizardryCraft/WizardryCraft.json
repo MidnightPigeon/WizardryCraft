@@ -110,9 +110,9 @@
         ]
       },
       "--fml.neoForgeVersion",
-      "21.1.248",
+      "21.1.251",
       "--fml.fmlVersion",
-      "4.0.43",
+      "4.0.44",
       "--fml.mcVersion",
       "1.21.1",
       "--fml.neoFormVersion",
@@ -187,6 +187,7 @@
     ]
   },
   "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+  "jar": "WizardryCraft",
   "assetIndex": {
     "totalSize": 823610674,
     "id": "17",
@@ -201,24 +202,24 @@
   },
   "libraries": [
     {
-      "name": "net.neoforged.fancymodloader:earlydisplay:4.0.43",
+      "name": "net.neoforged.fancymodloader:earlydisplay:4.0.44",
       "downloads": {
         "artifact": {
-          "path": "net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
-          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
-          "sha1": "3a941fcf258b5a7dde0445377a7206a55d11630d",
-          "size": 261719
+          "path": "net/neoforged/fancymodloader/earlydisplay/4.0.44/earlydisplay-4.0.44.jar",
+          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.44/earlydisplay-4.0.44.jar",
+          "sha1": "cb2afcf15672180eca1c49b1c9b1208951ef322e",
+          "size": 261718
         }
       }
     },
     {
-      "name": "net.neoforged.fancymodloader:loader:4.0.43",
+      "name": "net.neoforged.fancymodloader:loader:4.0.44",
       "downloads": {
         "artifact": {
-          "path": "net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
-          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
-          "sha1": "fb10b7bf2f568a9676ad8b426b19c23badbbd98a",
-          "size": 505633
+          "path": "net/neoforged/fancymodloader/loader/4.0.44/loader-4.0.44.jar",
+          "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.44/loader-4.0.44.jar",
+          "sha1": "63433608b68302a442e3dba87880e54f42ea0583",
+          "size": 505708
         }
       }
     },
@@ -2073,25 +2074,25 @@
     }
   ],
   "downloads": {
-    "client_mappings": {
-      "url": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
-      "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
-      "size": 9598610
-    },
-    "server": {
-      "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
-      "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
-      "size": 51627615
+    "server_mappings": {
+      "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
+      "sha1": "03f8985492bda0afc0898465341eb0acef35f570",
+      "size": 7456063
     },
     "client": {
       "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
       "sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
       "size": 26836906
     },
-    "server_mappings": {
-      "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
-      "sha1": "03f8985492bda0afc0898465341eb0acef35f570",
-      "size": 7456063
+    "server": {
+      "url": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
+      "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
+      "size": 51627615
+    },
+    "client_mappings": {
+      "url": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
+      "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
+      "size": 9598610
     }
   },
   "logging": {
@@ -2107,8 +2108,8 @@
     }
   },
   "type": "release",
-  "time": "2026-08-01T14:03:55+08:00",
-  "releaseTime": "2026-08-01T14:03:55+08:00",
+  "time": "2026-09-18T16:17:21+08:00",
+  "releaseTime": "2026-09-18T16:17:21+08:00",
   "minimumLauncherVersion": 21,
   "root": true,
   "patches": [
@@ -3769,10 +3770,10 @@
         }
       ],
       "downloads": {
-        "client_mappings": {
-          "url": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
-          "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
-          "size": 9598610
+        "server_mappings": {
+          "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
+          "sha1": "03f8985492bda0afc0898465341eb0acef35f570",
+          "size": 7456063
         },
         "client": {
           "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
@@ -3784,10 +3785,10 @@
           "sha1": "59353fb40c36d304f2035d51e7d6e6baa98dc05c",
           "size": 51627615
         },
-        "server_mappings": {
-          "url": "https://piston-data.mojang.com/v1/objects/03f8985492bda0afc0898465341eb0acef35f570/server.txt",
-          "sha1": "03f8985492bda0afc0898465341eb0acef35f570",
-          "size": 7456063
+        "client_mappings": {
+          "url": "https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt",
+          "sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
+          "size": 9598610
         }
       },
       "logging": {
@@ -3809,14 +3810,14 @@
     },
     {
       "id": "neoforge",
-      "version": "21.1.248",
+      "version": "21.1.251",
       "priority": 30000,
       "arguments": {
         "game": [
           "--fml.neoForgeVersion",
-          "21.1.248",
+          "21.1.251",
           "--fml.fmlVersion",
-          "4.0.43",
+          "4.0.44",
           "--fml.mcVersion",
           "1.21.1",
           "--fml.neoFormVersion",
@@ -3846,24 +3847,24 @@
       "inheritsFrom": "1.21.1",
       "libraries": [
         {
-          "name": "net.neoforged.fancymodloader:earlydisplay:4.0.43",
+          "name": "net.neoforged.fancymodloader:earlydisplay:4.0.44",
           "downloads": {
             "artifact": {
-              "path": "net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
-              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.43/earlydisplay-4.0.43.jar",
-              "sha1": "3a941fcf258b5a7dde0445377a7206a55d11630d",
-              "size": 261719
+              "path": "net/neoforged/fancymodloader/earlydisplay/4.0.44/earlydisplay-4.0.44.jar",
+              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/earlydisplay/4.0.44/earlydisplay-4.0.44.jar",
+              "sha1": "cb2afcf15672180eca1c49b1c9b1208951ef322e",
+              "size": 261718
             }
           }
         },
         {
-          "name": "net.neoforged.fancymodloader:loader:4.0.43",
+          "name": "net.neoforged.fancymodloader:loader:4.0.44",
           "downloads": {
             "artifact": {
-              "path": "net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
-              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.43/loader-4.0.43.jar",
-              "sha1": "fb10b7bf2f568a9676ad8b426b19c23badbbd98a",
-              "size": 505633
+              "path": "net/neoforged/fancymodloader/loader/4.0.44/loader-4.0.44.jar",
+              "url": "https://maven.neoforged.net/releases/net/neoforged/fancymodloader/loader/4.0.44/loader-4.0.44.jar",
+              "sha1": "63433608b68302a442e3dba87880e54f42ea0583",
+              "size": 505708
             }
           }
         },
@@ -4364,8 +4365,8 @@
         }
       ],
       "type": "release",
-      "time": "2026-08-01T14:03:55+08:00",
-      "releaseTime": "2026-08-01T14:03:55+08:00"
+      "time": "2026-09-18T16:17:21+08:00",
+      "releaseTime": "2026-09-18T16:17:21+08:00"
     }
   ]
 }

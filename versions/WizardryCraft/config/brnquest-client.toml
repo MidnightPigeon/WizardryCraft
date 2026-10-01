@@ -1,0 +1,55 @@
+[interface]
+	autoCollapseNavigation = true
+	rememberEditingMode = true
+	rememberViewport = true
+	#GUI pixels; 0 selects automatic width.
+	# Default: 0
+	# Range: 0 ~ 400
+	navigationWidth = 0
+	#GUI pixels; 0 selects automatic width.
+	# Default: 0
+	# Range: 0 ~ 600
+	detailsWidth = 0
+	#Allowed Values: ALWAYS, EDITING_ONLY, NEVER
+	showGrid = "ALWAYS"
+
+#Quest editor preferences
+[editor]
+	#Captured when a node press begins.
+	# Default: 220
+	# Range: 100 ~ 1000
+	nodeDragHoldMillis = 220
+	#Snap dragged quest nodes to the grid. Applies to the next drag.
+	snapToGrid = true
+
+#Quest screen scrolling settings
+[scrolling]
+	#Pixels added to the target for one mouse-wheel notch.
+	# Default: 24.0
+	# Range: 1.0 ~ 100.0
+	scrollStep = 24.0
+	#Scroll response per second. Higher values reach the target faster.
+	# Default: 12.0
+	# Range: 1.0 ~ 40.0
+	smoothSpeed = 12.0
+
+#Quest screen animation settings
+[animations]
+	reduceMotion = false
+	# Default: 0.1
+	# Range: 0.01 ~ 0.5
+	zoomStep = 0.1
+	#Zoom response per second.
+	# Default: 12.0
+	# Range: 1.0 ~ 40.0
+	zoomSmoothSpeed = 12.0
+	#Left and right drawer response per second.
+	# Default: 14.0
+	# Range: 1.0 ~ 40.0
+	drawerSmoothSpeed = 14.0
+	#Selected-quest camera focus response per second.
+	# Default: 10.0
+	# Range: 1.0 ~ 40.0
+	focusSmoothSpeed = 10.0
+	#Centers a quest in the remaining canvas when its details are opened or switched.
+	autoFocusSelectedQuest = true

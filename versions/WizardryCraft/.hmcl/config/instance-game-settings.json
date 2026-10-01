@@ -11,7 +11,7 @@
   ],
   "autoMemory": false,
   "maxMemory": 6144,
-  "width": 1600.0,
-  "height": 900.0,
+  "width": 1280.0,
+  "height": 720.0,
   "processPriority": "HIGH"
 }

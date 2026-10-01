@@ -1,0 +1,4 @@
+#Maximum permission level of command reward sources (0-4).
+# Default: 2
+# Range: 0 ~ 4
+commandRewardPermissionLimit = 2
