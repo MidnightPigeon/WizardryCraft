@@ -6,6 +6,7 @@
     "blacklistEnabled": true,
     "instructions": "true为开启，false为关闭。名单支持液体ID与#命名空间:液体标签；开启的黑名单优先于白名单。",
     "alchemyRevision": 1,
+    "fixedWhitelistRevision": 1,
     "whitelist": [
       "aeronautics:levitite_blend",
       "create:chocolate",
@@ -16,8 +17,7 @@
       "minecraft:milk",
       "minecraft:water",
       "omnira:decayed_timeflow",
-      "omnira:void_starflow",
-      "omnira:dilute_spacetime"
+      "omnira:void_starflow"
     ],
     "blacklist": [
       "omnira:refined_spacetime"
@@ -1016,6 +1016,27 @@
               "name": "omnira:dream_spell_core"
             }
           ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "omnira:void_starsea"
+              }
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
+            }
+          ]
         }
       ]
     },
@@ -1706,7 +1727,19 @@
               "type": "minecraft:loot_table",
               "value": "omnira:fishing/mire_treasure",
               "weight": 5,
-              "quality": 2
+              "quality": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -2850,16 +2883,12 @@
             },
             {
               "type": "minecraft:item",
-              "name": "omnira:spatial_crystal_shard",
+              "name": "omnira:pure_mirror",
               "weight": 5,
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 2,
-                    "max": 5
-                  }
+                  "count": 1
                 }
               ]
             },
@@ -2892,6 +2921,26 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:stable_fold_gate",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
             }
           ]
         }
@@ -2939,16 +2988,12 @@
             },
             {
               "type": "minecraft:item",
-              "name": "omnira:spatial_crystal_shard",
+              "name": "omnira:pure_mirror",
               "weight": 5,
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 2,
-                    "max": 5
-                  }
+                  "count": 1
                 }
               ]
             },
@@ -2981,6 +3026,11 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:stable_fold_gate",
+              "weight": 1
             }
           ]
         },
@@ -2996,6 +3046,21 @@
             {
               "type": "minecraft:item",
               "name": "omnira:spatial_remnant"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
             }
           ]
         }
@@ -3021,6 +3086,16 @@
               "type": "minecraft:item",
               "name": "omnira:dream_crystal_shard",
               "weight": 8
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:spatial_crystal_shard",
+              "weight": 8
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:resonance_crystal",
+              "weight": 4
             }
           ]
         }
@@ -3040,12 +3115,17 @@
             {
               "type": "minecraft:item",
               "name": "omnira:spatial_crystal_shard",
-              "weight": 83
+              "weight": 63
             },
             {
               "type": "minecraft:item",
               "name": "omnira:life_ender",
               "weight": 2
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:pure_mirror",
+              "weight": 20
             }
           ]
         }
@@ -3108,7 +3188,19 @@
               "type": "minecraft:loot_table",
               "value": "omnira:fishing/starflow_treasure",
               "weight": 5,
-              "quality": 2
+              "quality": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:fishing_hook",
+                      "in_open_water": true
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -3156,16 +3248,12 @@
             },
             {
               "type": "minecraft:item",
-              "name": "omnira:spatial_crystal_shard",
+              "name": "omnira:pure_mirror",
               "weight": 4,
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 2,
-                    "max": 4
-                  }
+                  "count": 1
                 }
               ]
             },
@@ -3200,6 +3288,21 @@
               "name": "omnira:voyager_violin"
             }
           ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
+            }
+          ]
         }
       ]
     },
@@ -3215,9 +3318,21 @@
           "entries": [
             {
               "type": "minecraft:item",
-              "name": "omnira:deflection_crystal",
+              "name": "omnira:excited_rough_spatial_crystal_block",
               "weight": 8,
               "functions": [
+                {
+                  "function": "minecraft:set_item",
+                  "item": "omnira:deflection_crystal",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biomes": "omnira:dislocated_geodes"
+                      }
+                    }
+                  ]
+                },
                 {
                   "function": "minecraft:set_count",
                   "count": {
@@ -3245,16 +3360,12 @@
             },
             {
               "type": "minecraft:item",
-              "name": "omnira:spatial_crystal_shard",
+              "name": "omnira:pure_mirror",
               "weight": 5,
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 3,
-                    "max": 6
-                  }
+                  "count": 1
                 }
               ]
             },
@@ -3272,6 +3383,21 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
             }
           ]
         }
@@ -3334,9 +3460,21 @@
             },
             {
               "type": "minecraft:item",
-              "name": "omnira:deflection_crystal",
+              "name": "omnira:excited_rough_spatial_crystal_block",
               "weight": 5,
               "functions": [
+                {
+                  "function": "minecraft:set_item",
+                  "item": "omnira:deflection_crystal",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biomes": "omnira:dislocated_geodes"
+                      }
+                    }
+                  ]
+                },
                 {
                   "function": "minecraft:set_count",
                   "count": {
@@ -3361,6 +3499,168 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
+            }
+          ]
+        }
+      ]
+    },
+    "omnira:chests/topological_labyrinth": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:chests/calibration_materials"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:chests/calibration_supplies"
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:mapping_stability_compass"
+            }
+          ]
+        }
+      ]
+    },
+    "omnira:archaeology/topological_labyrinth": {
+      "type": "minecraft:archaeology",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:archaeology/epoch_0"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:archaeology/epoch_1"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:archaeology/epoch_2"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:archaeology/epoch_3"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "omnira:archaeology/epoch_4"
+            }
+          ]
+        }
+      ]
+    },
+    "omnira:chests/skyreach_supplies": {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": {
+            "type": "minecraft:uniform",
+            "min": 4,
+            "max": 6
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:spatial_crystal_shard",
+              "weight": 8,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 8
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:infused_spiritual_crystal",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:arcane_dust",
+              "weight": 4,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:space_microcore",
+              "weight": 1
+            },
+            {
+              "type": "minecraft:item",
+              "name": "omnira:space_warp_point",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "rolls": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "omnira:rain_soaked_suitcase"
             }
           ]
         }

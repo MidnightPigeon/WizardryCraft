@@ -72,6 +72,12 @@
     "entity": true,
     "entity_variant": true
   },
+  "omnira": {
+    "pulse_potential": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -82,9 +88,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "waystones": {
-    "waystone": true
   },
   "balm": {
     "jade": true

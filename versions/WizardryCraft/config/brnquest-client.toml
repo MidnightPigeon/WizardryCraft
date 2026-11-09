@@ -12,6 +12,11 @@
 	detailsWidth = 0
 	#Allowed Values: ALWAYS, EDITING_ONLY, NEVER
 	showGrid = "ALWAYS"
+	#Always show visible quest names above or below their nodes; OFF hides labels.
+	#Allowed Values: OFF, ABOVE, BELOW
+	questNamePosition = "OFF"
+	#Show completed / visible quests and percentage in chapter navigation.
+	showChapterProgress = false
 
 #Quest editor preferences
 [editor]
@@ -53,3 +58,44 @@
 	focusSmoothSpeed = 10.0
 	#Centers a quest in the remaining canvas when its details are opened or switched.
 	autoFocusSelectedQuest = true
+
+#Tracked quest HUD
+[trackingHud]
+	#Tracking HUD scale relative to GUI pixels; default 0.75.
+	# Default: 0.75
+	# Range: 0.5 ~ 1.5
+	hudScale = 0.75
+	#Tracking HUD background opacity from 0 to 1; text and icons remain opaque.
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	hudBackgroundOpacity = 0.85
+	#Maximum tracking HUD width before its independent scale; actual width follows content.
+	# Default: 240
+	# Range: 120 ~ 400
+	hudMaxWidth = 240
+
+#Top-center completion notifications
+[notifications]
+	completionNotifications = true
+	notificationSound = false
+	#Floating notification scale relative to GUI pixels.
+	# Default: 1.0
+	# Range: 0.5 ~ 1.5
+	notificationScale = 1.0
+	#Notification background opacity from 0 to 1; text and icons remain opaque.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	notificationBackgroundOpacity = 1.0
+	#Floating notification width in GUI pixels before notification scaling.
+	# Default: 280
+	# Range: 160 ~ 600
+	notificationWidth = 280
+	#Seconds from the latest notification until the entire stack closes together.
+	# Default: 4.0
+	# Range: 1.0 ~ 30.0
+	notificationDurationSeconds = 4.0
+
+#Client development diagnostics
+[debug]
+	#Replace BRNQuest text tooltips with text layout measurements.
+	textLayoutDebug = false
