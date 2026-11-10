@@ -155,3 +155,19 @@ versions/WizardryCraft/command_history.txt
 /.env
 /.env.*
 !/.env.example
+/.test-runtime/
+**/config/sodium-fingerprint.json
+**/config/sodium-options.json
+**/config/xaeropatreon.txt
+
+# Leftover configuration from removed mods.
+/versions/WizardryCraft/config/malum-*.toml
+/versions/WizardryCraft/config/ftblibrary-client.snbt
+/versions/WizardryCraft/config/ftbquests-client.snbt
+/versions/WizardryCraft/config/ftbteams-server.snbt
+/versions/WizardryCraft/config/waystones-common.toml
+
+# Stock KubeJS examples generated on first launch.
+/versions/WizardryCraft/kubejs/README.txt
+/versions/WizardryCraft/kubejs/assets/kubejs/textures/block/example_block.png
+/versions/WizardryCraft/kubejs/assets/kubejs/textures/item/example_item.png
